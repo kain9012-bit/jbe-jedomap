@@ -28,7 +28,7 @@ const LEGAL_KINDS = new Set([
   "조례·규칙",
 ]);
 const VERIFICATION_STATUSES = new Set(["source-linked", "article-verified", "needs-review"]);
-const SOURCE_TYPES = new Set(["statute", "admin-rule", "treaty"]);
+const SOURCE_TYPES = new Set(["statute", "admin-rule", "treaty", "ordinance"]);
 const UNRESOLVED_REASON_CODES = new Set([
   "local-scope",
   "institution-scope",
@@ -144,6 +144,11 @@ for (const { file, data: institution } of institutions) {
           if (!/^\d+$/.test(source.treatyId ?? "")) fail(sourceScope, "조약 treatyId는 숫자여야 합니다");
           if (!/^\d+$/.test(source.treatyNumber ?? "")) fail(sourceScope, "조약 treatyNumber는 숫자여야 합니다");
           if (!ISO_DATE.test(source.effectiveOn ?? "")) fail(sourceScope, "조약 effectiveOn은 YYYY-MM-DD 형식이어야 합니다");
+        }
+        if (sourceType === "ordinance") {
+          if (!/^\d+$/.test(source.ordinanceId ?? "")) fail(sourceScope, "자치법규 ordinanceId는 숫자여야 합니다");
+          if (!ISO_DATE.test(source.promulgatedOn ?? "")) fail(sourceScope, "자치법규 promulgatedOn은 YYYY-MM-DD 형식이어야 합니다");
+          if (!ISO_DATE.test(source.effectiveOn ?? "")) fail(sourceScope, "자치법규 effectiveOn은 YYYY-MM-DD 형식이어야 합니다");
         }
         if (!source.officialUrl?.startsWith("https://law.go.kr/")) {
           fail(sourceScope, "officialUrl은 국가법령정보센터 HTTPS URL이어야 합니다");

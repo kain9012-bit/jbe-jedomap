@@ -23,7 +23,7 @@ export type SourceVerificationStatus =
   | "article-verified"
   | "needs-review";
 
-export type LegalSourceType = "statute" | "admin-rule" | "treaty";
+export type LegalSourceType = "statute" | "admin-rule" | "treaty" | "ordinance";
 
 export interface LegalSource {
   law: string;
@@ -34,6 +34,7 @@ export interface LegalSource {
   mst?: string;
   adminRuleId?: string;
   adminRuleSerial?: string;
+  ordinanceId?: string;
   treatyId?: string;
   treatyNumber?: string;
   promulgatedOn?: string;

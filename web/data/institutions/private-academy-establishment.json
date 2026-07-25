@@ -322,49 +322,57 @@
     ]
   },
   "verification": {
-    "status": "needs-review",
+    "status": "article-verified",
     "verifiedAt": "2026-07-24",
-    "method": "국가법령정보센터 자치법규 원문(전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례, 2025-07-11 시행)을 OpenAPI로 대조. 상위 국가법령은 미연계로 기록.",
-    "scope": "전북 조례 조문은 원문과 대조 확인. 조례가 위임·전제한 국가법령 절차와 현장 운영 세부는 unresolved 및 fieldVerification으로 분리했다.",
+    "method": "국가법령정보센터 OpenAPI로 자치법규 원문(전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례) 및 상위 국가법령을 대조. 캔버스·절차 노드의 명시 조문 번호 존재를 모두 확인.",
+    "scope": "전북 조례 조문과 인용 국가법령 조문의 존재를 OpenAPI 응답으로 확인했다. 노드 상태·확신도는 편집 표지이며, 조문의 법적 해석·사건별 적용은 별도 검토 대상이다.",
     "notes": [
-      "조례 소관: 전북특별자치도교육청 창의인재교육과",
-      "자치법규 MST 2052385. 국가법령정보 OpenAPI(OC 인증)로 원문 확인."
+      "조례 소관 부서 및 원문은 국가법령정보 OpenAPI(OC 인증)로 확인",
+      "자치법규는 ordinance 소스, 상위 국가법령은 statute 소스로 연계"
     ],
     "sources": [
       {
         "law": "전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례",
         "kind": "조례",
-        "sourceType": "admin-rule",
+        "sourceType": "ordinance",
         "officialName": "전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례",
-        "adminRuleId": "2052385",
-        "adminRuleSerial": "5832",
+        "ordinanceId": "2052385",
+        "mst": "2052385",
         "promulgatedOn": "2025-07-11",
+        "effectiveOn": "2025-07-11",
         "officialUrl": "https://law.go.kr/자치법규/전북특별자치도학원의설립ㆍ운영및과외교습에관한조례"
-      }
-    ],
-    "unresolved": [
+      },
       {
         "law": "학원의 설립·운영 및 과외교습에 관한 법률",
         "kind": "법률",
-        "reasonCode": "external-official-document",
-        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
-        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+        "sourceType": "statute",
+        "officialName": "학원의 설립·운영 및 과외교습에 관한 법률",
+        "lawId": "000850",
+        "mst": "249991",
+        "promulgatedOn": "2023-04-18",
+        "effectiveOn": "2023-10-19",
+        "officialUrl": "https://law.go.kr/법령/학원의설립·운영및과외교습에관한법률"
       },
       {
         "law": "학원의 설립·운영 및 과외교습에 관한 법률 시행령",
         "kind": "대통령령",
-        "reasonCode": "external-official-document",
-        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
-        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+        "sourceType": "statute",
+        "officialName": "학원의 설립·운영 및 과외교습에 관한 법률 시행령",
+        "lawId": "005397",
+        "mst": "284907",
+        "promulgatedOn": "2026-03-24",
+        "effectiveOn": "2026-03-24",
+        "officialUrl": "https://law.go.kr/법령/학원의설립·운영및과외교습에관한법률시행령"
       }
     ],
+    "unresolved": [],
     "articleVerification": {
       "checkedAt": "2026-07-24",
-      "method": "전북 조례 원문의 명시 조문 존재를 OpenAPI 응답으로 확인. 국가법 조문은 미연계로 uncheckable 처리.",
-      "citationEntries": 7,
-      "explicitCitationEntries": 7,
-      "articleReferences": 7,
-      "verifiedReferences": 7,
+      "method": "OpenAPI(target=ordin/law) 응답의 조문 목록과 인용 조문 번호를 대조.",
+      "citationEntries": 9,
+      "explicitCitationEntries": 9,
+      "articleReferences": 13,
+      "verifiedReferences": 13,
       "missingReferences": 0,
       "uncheckableReferences": 0
     }

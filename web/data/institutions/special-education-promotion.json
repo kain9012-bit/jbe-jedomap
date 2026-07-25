@@ -322,56 +322,68 @@
     ]
   },
   "verification": {
-    "status": "needs-review",
+    "status": "article-verified",
     "verifiedAt": "2026-07-24",
-    "method": "국가법령정보센터 자치법규 원문(전북특별자치도교육청 특수교육 진흥 및 지원 조례, 2025-10-10 시행)을 OpenAPI로 대조. 상위 국가법령은 미연계로 기록.",
-    "scope": "전북 조례 조문은 원문과 대조 확인. 조례가 위임·전제한 국가법령 절차와 현장 운영 세부는 unresolved 및 fieldVerification으로 분리했다.",
+    "method": "국가법령정보센터 OpenAPI로 자치법규 원문(전북특별자치도교육청 특수교육 진흥 및 지원 조례) 및 상위 국가법령을 대조. 캔버스·절차 노드의 명시 조문 번호 존재를 모두 확인.",
+    "scope": "전북 조례 조문과 인용 국가법령 조문의 존재를 OpenAPI 응답으로 확인했다. 노드 상태·확신도는 편집 표지이며, 조문의 법적 해석·사건별 적용은 별도 검토 대상이다.",
     "notes": [
-      "조례 소관: 전북특별자치도교육청 유초등특수교육과",
-      "자치법규 MST 2072355. 국가법령정보 OpenAPI(OC 인증)로 원문 확인."
+      "조례 소관 부서 및 원문은 국가법령정보 OpenAPI(OC 인증)로 확인",
+      "자치법규는 ordinance 소스, 상위 국가법령은 statute 소스로 연계"
     ],
     "sources": [
       {
         "law": "전북특별자치도교육청 특수교육 진흥 및 지원 조례",
         "kind": "조례",
-        "sourceType": "admin-rule",
+        "sourceType": "ordinance",
         "officialName": "전북특별자치도교육청 특수교육 진흥 및 지원 조례",
-        "adminRuleId": "2072355",
-        "adminRuleSerial": "5908",
+        "ordinanceId": "2072355",
+        "mst": "2072355",
         "promulgatedOn": "2025-10-10",
+        "effectiveOn": "2025-10-10",
         "officialUrl": "https://law.go.kr/자치법규/전북특별자치도교육청특수교육진흥및지원조례"
-      }
-    ],
-    "unresolved": [
+      },
       {
         "law": "장애인 등에 대한 특수교육법",
         "kind": "법률",
-        "reasonCode": "external-official-document",
-        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
-        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+        "sourceType": "statute",
+        "officialName": "장애인 등에 대한 특수교육법",
+        "lawId": "010449",
+        "mst": "276191",
+        "promulgatedOn": "2025-10-01",
+        "effectiveOn": "2025-10-01",
+        "officialUrl": "https://law.go.kr/법령/장애인등에대한특수교육법"
       },
       {
         "law": "유아교육법",
         "kind": "법률",
-        "reasonCode": "external-official-document",
-        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
-        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+        "sourceType": "statute",
+        "officialName": "유아교육법",
+        "lawId": "009621",
+        "mst": "286061",
+        "promulgatedOn": "2026-05-19",
+        "effectiveOn": "2026-05-19",
+        "officialUrl": "https://law.go.kr/법령/유아교육법"
       },
       {
         "law": "초·중등교육법",
         "kind": "법률",
-        "reasonCode": "external-official-document",
-        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
-        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+        "sourceType": "statute",
+        "officialName": "초·중등교육법",
+        "lawId": "000900",
+        "mst": "279605",
+        "promulgatedOn": "2025-11-11",
+        "effectiveOn": "2026-03-01",
+        "officialUrl": "https://law.go.kr/법령/초·중등교육법"
       }
     ],
+    "unresolved": [],
     "articleVerification": {
       "checkedAt": "2026-07-24",
-      "method": "전북 조례 원문의 명시 조문 존재를 OpenAPI 응답으로 확인. 국가법 조문은 미연계로 uncheckable 처리.",
-      "citationEntries": 6,
-      "explicitCitationEntries": 6,
-      "articleReferences": 6,
-      "verifiedReferences": 6,
+      "method": "OpenAPI(target=ordin/law) 응답의 조문 목록과 인용 조문 번호를 대조.",
+      "citationEntries": 9,
+      "explicitCitationEntries": 9,
+      "articleReferences": 10,
+      "verifiedReferences": 10,
       "missingReferences": 0,
       "uncheckableReferences": 0
     }
