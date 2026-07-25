@@ -165,10 +165,10 @@ export default function LawToProcessHero({
 
         <nav className="law-process-actions" aria-label="업무구조도 바로가기">
           <Link
-            href="/model/environmental-impact-assessment/"
+            href="/model/student-tailored-integrated-support/"
             className="law-process-primary pressable-link"
           >
-            환경영향평가 전체 보기 <span aria-hidden="true">→</span>
+            학생맞춤통합지원 전체 보기 <span aria-hidden="true">→</span>
           </Link>
           <Link href="#institutions" className="pressable-link">
             {modelCount}개 구조도 보기

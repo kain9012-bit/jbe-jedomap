@@ -186,7 +186,8 @@ if (files.length !== catalogManifest.length) {
 await removeStaleProcessImages(new Set(Object.keys(currentGeneration.entries)));
 await fs.writeFile(generationManifestPath, `${JSON.stringify(currentGeneration, null, 2)}\n`);
 
-const eiaOutput = path.join(outputDir, "environmental-impact-assessment.png");
+const legacySourceSlug = files[0].replace(/\.json$/, "");
+const eiaOutput = path.join(outputDir, `${legacySourceSlug}.png`);
 await fs.copyFile(eiaOutput, legacyEiaPath);
 console.log(
   `세로형 업무구조도 PNG 처리: 신규·변경 ${generated.length}개 · 재사용 ${skipped.length}개 · 전체 ${files.length}개 (${WIDTH}x${HEIGHT})`
