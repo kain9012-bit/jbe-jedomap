@@ -4,7 +4,7 @@ import type { MetadataRoute } from "next";
 import { getAllSlugs, getAllInstitutions } from "@/lib/data";
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://hosungseo.github.io/korea100";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://kain9012-bit.github.io/jbe-jedomap";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const slugs = getAllSlugs();

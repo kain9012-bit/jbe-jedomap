@@ -5,7 +5,7 @@ import { getInstitutionSummaries } from "@/lib/data";
 import "./globals.css";
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://hosungseo.github.io/korea100";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://kain9012-bit.github.io/jbe-jedomap";
 const INSTITUTIONS = getInstitutionSummaries();
 const MODEL_COUNT = INSTITUTIONS.length;
 const LATEST_AS_OF_DATE = INSTITUTIONS.reduce(
@@ -164,10 +164,10 @@ function Footer() {
             <br />
             오류·제보:{" "}
             <a
-              href="mailto:hosung.seo2026@gmail.com"
+              href="mailto:kain9012@jbedu.kr"
               style={{ color: "var(--color-accent-dark)", textDecoration: "none" }}
             >
-              hosung.seo2026@gmail.com
+              kain9012@jbedu.kr
             </a>
           </p>
         </div>

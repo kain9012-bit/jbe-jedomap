@@ -49,7 +49,7 @@ export default function OgCardPage() {
         <div><span>05</span><strong>병목과 개선</strong></div>
       </section>
 
-      <footer>hosungseo.github.io/korea100</footer>
+      <footer>kain9012-bit.github.io/jbe-jedomap</footer>
     </main>
   );
 }

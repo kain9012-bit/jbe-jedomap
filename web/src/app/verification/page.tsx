@@ -7,7 +7,7 @@ import {
 } from "@/lib/data";
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://hosungseo.github.io/korea100";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://kain9012-bit.github.io/jbe-jedomap";
 
 export const metadata: Metadata = {
   title: "검증 현황",
