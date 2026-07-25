@@ -1,11 +1,11 @@
 {
   "sourceAsOfDate": "2026-07-24",
-  "total": 4,
-  "institutions": 1,
+  "total": 19,
+  "institutions": 6,
   "byDomain": {
-    "실무 관행": 1,
-    "운영 사실": 2,
-    "처리기간": 1
+    "실무 관행": 6,
+    "운영 사실": 11,
+    "처리기간": 2
   },
   "entries": [
     {
@@ -48,6 +48,171 @@
       "institutionName": "학생맞춤통합지원",
       "category": "학생지원·안전",
       "item": "민·관 협의체의 실제 구성 현황과 개최 주기",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "school-meal-info-disclosure-FV01",
+      "priority": 2,
+      "slug": "school-meal-info-disclosure",
+      "institutionName": "학교급식 정보공개",
+      "category": "학생지원·안전",
+      "item": "학교별 실제 공개 항목·주기·형식",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "school-meal-info-disclosure-FV02",
+      "priority": 2,
+      "slug": "school-meal-info-disclosure",
+      "institutionName": "학교급식 정보공개",
+      "category": "학생지원·안전",
+      "item": "급식게시판 의견의 처리·반영 절차",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "school-meal-info-disclosure-FV03",
+      "priority": 2,
+      "slug": "school-meal-info-disclosure",
+      "institutionName": "학교급식 정보공개",
+      "category": "학생지원·안전",
+      "item": "만족도 조사 설계와 결과 활용 실무",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "special-education-promotion-FV01",
+      "priority": 3,
+      "slug": "special-education-promotion",
+      "institutionName": "특수교육 진흥·지원",
+      "category": "특수·유아교육",
+      "item": "특수교육대상자 선정·배치 실무(별도 절차)",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "special-education-promotion-FV02",
+      "priority": 3,
+      "slug": "special-education-promotion",
+      "institutionName": "특수교육 진흥·지원",
+      "category": "특수·유아교육",
+      "item": "실태조사 설계·주기와 결과 활용",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "special-education-promotion-FV03",
+      "priority": 3,
+      "slug": "special-education-promotion",
+      "institutionName": "특수교육 진흥·지원",
+      "category": "특수·유아교육",
+      "item": "학교 단위 경비 지원 신청·집행 절차",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "integrated-education-finance-fund-FV01",
+      "priority": 4,
+      "slug": "integrated-education-finance-fund",
+      "institutionName": "통합교육재정안정화기금",
+      "category": "재정·예산",
+      "item": "계정 간 예탁·상환의 실제 시점·규모 결정",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "integrated-education-finance-fund-FV02",
+      "priority": 4,
+      "slug": "integrated-education-finance-fund",
+      "institutionName": "통합교육재정안정화기금",
+      "category": "재정·예산",
+      "item": "기금운용심의위원회 구성·개최 실무",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "integrated-education-finance-fund-FV03",
+      "priority": 4,
+      "slug": "integrated-education-finance-fund",
+      "institutionName": "통합교육재정안정화기금",
+      "category": "재정·예산",
+      "item": "회계관계공무원 지정·분임 운영",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "private-academy-establishment-FV01",
+      "priority": 5,
+      "slug": "private-academy-establishment",
+      "institutionName": "학원 설립·운영·지도점검",
+      "category": "평생·직업·학원",
+      "item": "실제 등록 심사 서류·기간",
+      "domain": "처리기간",
+      "suggestedEvidence": "처리대장·통계 또는 담당자 인터뷰",
+      "status": "open"
+    },
+    {
+      "id": "private-academy-establishment-FV02",
+      "priority": 5,
+      "slug": "private-academy-establishment",
+      "institutionName": "학원 설립·운영·지도점검",
+      "category": "평생·직업·학원",
+      "item": "지도·점검 주기·방식과 적발 처리",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "private-academy-establishment-FV03",
+      "priority": 5,
+      "slug": "private-academy-establishment",
+      "institutionName": "학원 설립·운영·지도점검",
+      "category": "평생·직업·학원",
+      "item": "행정처분 기준 적용 사례",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "alternative-school-support-FV01",
+      "priority": 6,
+      "slug": "alternative-school-support",
+      "institutionName": "대안교육특성화학교 지원",
+      "category": "교육과정·대안교육",
+      "item": "지원사업 선정·배분 기준",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "alternative-school-support-FV02",
+      "priority": 6,
+      "slug": "alternative-school-support",
+      "institutionName": "대안교육특성화학교 지원",
+      "category": "교육과정·대안교육",
+      "item": "지원협의회 구성·개최 실무",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "alternative-school-support-FV03",
+      "priority": 6,
+      "slug": "alternative-school-support",
+      "institutionName": "대안교육특성화학교 지원",
+      "category": "교육과정·대안교육",
+      "item": "성과점검 지표와 사후관리 절차",
       "domain": "운영 사실",
       "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
       "status": "open"

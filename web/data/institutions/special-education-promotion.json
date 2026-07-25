@@ -1,0 +1,379 @@
+{
+  "slug": "special-education-promotion",
+  "name": "특수교육 진흥·지원",
+  "oneLiner": "장애학생에게 장애유형·특성을 고려한 교육환경을 제공하기 위해 교육감이 발전계획(5년)·운영계획(매년)을 세우고 경비·평생교육을 지원하는 제도",
+  "type": "계획·지원형",
+  "priority": 3,
+  "category": "특수·유아교육",
+  "whyFirst": "특수교육대상자 지원의 상위 계획 틀로, 장애인 등에 대한 특수교육법과 전북 조례가 함께 근거를 이룬다.",
+  "asOfDate": "2026-07-24",
+  "status": "full",
+  "canvas": {
+    "purpose": "장애학생에게 장애유형·특성에 맞는 교육환경을 제공하고 사회통합을 돕기 위해, 특수교육 진흥에 필요한 계획 수립과 지원을 규정한다.",
+    "stakeholders": "특수교육대상자와 보호자, 학교, 교육지원청(특수교육지원센터), 전북특별자치도교육감(유초등특수교육과), 전북특별자치도지사(평생교육 협력)",
+    "legalBasis": [
+      {
+        "law": "장애인 등에 대한 특수교육법",
+        "kind": "법률"
+      },
+      {
+        "law": "유아교육법",
+        "articles": "제2조",
+        "kind": "법률"
+      },
+      {
+        "law": "초·중등교육법",
+        "articles": "제2조",
+        "kind": "법률"
+      },
+      {
+        "law": "전북특별자치도교육청 특수교육 진흥 및 지원 조례",
+        "articles": "제1조~제10조",
+        "kind": "조례"
+      }
+    ],
+    "authorities": [
+      {
+        "name": "전북특별자치도교육감(유초등특수교육과)",
+        "role": "특수교육 정책·발전계획·운영계획 수립, 경비 지원, 실태조사, 표창"
+      },
+      {
+        "name": "전북특별자치도지사",
+        "role": "장애인 평생교육과정 협력·지원"
+      },
+      {
+        "name": "학교",
+        "role": "특수교육대상자 교육 실시"
+      }
+    ],
+    "procedure": [
+      "교육감이 특수교육발전계획을 5년마다 수립·시행한다 (조례 제4조)",
+      "발전계획에 따라 특수교육운영계획을 매년 수립·시행한다 (조례 제5조)",
+      "관련 행정기관과 협조체제를 구축한다 (조례 제6조)",
+      "특수교육대상자 교육에 필요한 경비를 예산 범위에서 지원한다 (조례 제8조)",
+      "실태를 파악하기 위한 실태조사를 실시한다 (조례 제8조)",
+      "도지사와 협력해 장애인 평생교육과정을 지원한다 (조례 제7조)",
+      "특수교육 진흥에 기여한 기관·단체·개인을 표창한다 (조례 제9조)"
+    ],
+    "moneyFlow": "특수교육대상자 교육에 필요한 경비의 전부 또는 일부를 예산의 범위에서 지원한다 (조례 제8조).",
+    "docsFlow": "특수교육발전계획(5년) → 운영계획(매년) → 실태조사 결과 → 경비 지원 내역 → 평생교육 협력 결과 → 표창.",
+    "bottlenecks": [
+      "실태조사 주기·정확성 (현장 검증 필요)",
+      "특수교육대상자 선정·배치와의 연계 (별도 절차, 현장 검증 필요)",
+      "도-교육청 평생교육 협력의 상시성"
+    ],
+    "reformPoints": [
+      "발전계획-운영계획-실태조사의 데이터 연동",
+      "장애인 평생교육 상시 협력 창구 지정",
+      "지원 경비의 성과 점검 강화"
+    ]
+  },
+  "related": [
+    "특수교육대상자 선정·배치",
+    "장애학생 편의지원",
+    "장애인 평생교육시설 지원"
+  ],
+  "fieldVerification": [
+    "특수교육대상자 선정·배치 실무(별도 절차)",
+    "실태조사 설계·주기와 결과 활용",
+    "학교 단위 경비 지원 신청·집행 절차"
+  ],
+  "process": {
+    "lanes": [
+      "특수교육대상자·보호자",
+      "학교",
+      "교육지원청(특수교육지원센터)",
+      "교육청(유초등특수교육과)",
+      "도청·유관기관"
+    ],
+    "stages": [
+      "G0 계획",
+      "G1 실태파악",
+      "G2 지원",
+      "G3 협력·환류"
+    ],
+    "nodes": [
+      {
+        "id": "P01",
+        "name": "특수교육발전계획 수립(5년)",
+        "lane": "교육청(유초등특수교육과)",
+        "stage": "G0 계획",
+        "type": "task",
+        "status": "done",
+        "actor": "교육감",
+        "action": "추진목표·기반조성 등을 포함한 5년 발전계획 수립·시행",
+        "output_documents": [
+          "특수교육발전계획"
+        ],
+        "deadline": "5년마다",
+        "blocker": null,
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 특수교육 진흥 및 지원 조례",
+            "article": "제4조"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "name": "특수교육운영계획 수립(매년)",
+        "lane": "교육청(유초등특수교육과)",
+        "stage": "G0 계획",
+        "type": "task",
+        "status": "done",
+        "actor": "교육감",
+        "action": "발전계획에 따라 매년 운영계획 수립·시행",
+        "output_documents": [
+          "특수교육운영계획"
+        ],
+        "deadline": "매년",
+        "blocker": null,
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 특수교육 진흥 및 지원 조례",
+            "article": "제5조"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "name": "실태조사",
+        "lane": "교육청(유초등특수교육과)",
+        "stage": "G1 실태파악",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "지원 실태 파악을 위한 실태조사 계획 수립·실시",
+        "output_documents": [
+          "실태조사 결과"
+        ],
+        "deadline": null,
+        "blocker": "조사 주기·정확성",
+        "confidence": 0.6,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 특수교육 진흥 및 지원 조례",
+            "article": "제8조"
+          }
+        ]
+      },
+      {
+        "id": "P04",
+        "name": "학교 특수교육 실시",
+        "lane": "학교",
+        "stage": "G2 지원",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교",
+        "action": "특수교육대상자 교육 제공",
+        "output_documents": [
+          "교육 운영 기록"
+        ],
+        "deadline": null,
+        "blocker": "대상자 선정·배치 연계(별도 절차)",
+        "confidence": 0.5
+      },
+      {
+        "id": "P05",
+        "name": "교육지원청 지원 연계",
+        "lane": "교육지원청(특수교육지원센터)",
+        "stage": "G2 지원",
+        "type": "task",
+        "status": "waiting",
+        "actor": "특수교육지원센터",
+        "action": "지역 단위 특수교육 지원·연계",
+        "output_documents": [
+          "지원 연계 기록"
+        ],
+        "deadline": null,
+        "blocker": "인력·자원",
+        "confidence": 0.5
+      },
+      {
+        "id": "P06",
+        "name": "특수교육 경비 지원",
+        "lane": "교육청(유초등특수교육과)",
+        "stage": "G2 지원",
+        "type": "task",
+        "status": "current",
+        "actor": "교육감",
+        "action": "특수교육대상자 교육 경비를 예산 범위에서 지원",
+        "output_documents": [
+          "경비 지원 결정"
+        ],
+        "deadline": null,
+        "blocker": "예산 범위 제약",
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 특수교육 진흥 및 지원 조례",
+            "article": "제8조"
+          }
+        ]
+      },
+      {
+        "id": "P07",
+        "name": "장애인 평생교육 협력",
+        "lane": "도청·유관기관",
+        "stage": "G3 협력·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감·도지사",
+        "action": "도지사와 협력해 장애인 평생교육과정(직업훈련 등) 지원",
+        "output_documents": [
+          "협력 지원 내역"
+        ],
+        "deadline": null,
+        "blocker": "기관 간 협력 상시성",
+        "confidence": 0.65,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 특수교육 진흥 및 지원 조례",
+            "article": "제7조"
+          }
+        ]
+      },
+      {
+        "id": "P08",
+        "name": "표창 및 차기 계획 환류",
+        "lane": "교육청(유초등특수교육과)",
+        "stage": "G3 협력·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "기여 기관·단체·개인 표창, 결과를 차기 계획에 반영",
+        "output_documents": [
+          "표창",
+          "차기 계획 반영안"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 특수교육 진흥 및 지원 조례",
+            "article": "제9조"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "P01",
+        "target": "P02",
+        "type": "sequence"
+      },
+      {
+        "id": "E02",
+        "source": "P02",
+        "target": "P03",
+        "type": "sequence"
+      },
+      {
+        "id": "E03",
+        "source": "P03",
+        "target": "P06",
+        "type": "sequence"
+      },
+      {
+        "id": "E04",
+        "source": "P06",
+        "target": "P04",
+        "type": "message",
+        "label": "경비 지원"
+      },
+      {
+        "id": "E05",
+        "source": "P05",
+        "target": "P04",
+        "type": "message"
+      },
+      {
+        "id": "E06",
+        "source": "P03",
+        "target": "P05",
+        "type": "sequence"
+      },
+      {
+        "id": "E07",
+        "source": "P06",
+        "target": "P07",
+        "type": "sequence"
+      },
+      {
+        "id": "E08",
+        "source": "P07",
+        "target": "P08",
+        "type": "sequence"
+      },
+      {
+        "id": "E09",
+        "source": "P08",
+        "target": "P02",
+        "type": "loop",
+        "label": "차기 운영계획 반영"
+      }
+    ],
+    "warnings": [
+      "학교 특수교육 실시·대상자 배치(P04)는 별도 절차와 현장 운영에 근거해 confidence를 낮춤(현장 검증 필요)."
+    ]
+  },
+  "verification": {
+    "status": "needs-review",
+    "verifiedAt": "2026-07-24",
+    "method": "국가법령정보센터 자치법규 원문(전북특별자치도교육청 특수교육 진흥 및 지원 조례, 2025-10-10 시행)을 OpenAPI로 대조. 상위 국가법령은 미연계로 기록.",
+    "scope": "전북 조례 조문은 원문과 대조 확인. 조례가 위임·전제한 국가법령 절차와 현장 운영 세부는 unresolved 및 fieldVerification으로 분리했다.",
+    "notes": [
+      "조례 소관: 전북특별자치도교육청 유초등특수교육과",
+      "자치법규 MST 2072355. 국가법령정보 OpenAPI(OC 인증)로 원문 확인."
+    ],
+    "sources": [
+      {
+        "law": "전북특별자치도교육청 특수교육 진흥 및 지원 조례",
+        "kind": "조례",
+        "sourceType": "admin-rule",
+        "officialName": "전북특별자치도교육청 특수교육 진흥 및 지원 조례",
+        "adminRuleId": "2072355",
+        "adminRuleSerial": "5908",
+        "promulgatedOn": "2025-10-10",
+        "officialUrl": "https://law.go.kr/자치법규/전북특별자치도교육청특수교육진흥및지원조례"
+      }
+    ],
+    "unresolved": [
+      {
+        "law": "장애인 등에 대한 특수교육법",
+        "kind": "법률",
+        "reasonCode": "external-official-document",
+        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
+        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+      },
+      {
+        "law": "유아교육법",
+        "kind": "법률",
+        "reasonCode": "external-official-document",
+        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
+        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+      },
+      {
+        "law": "초·중등교육법",
+        "kind": "법률",
+        "reasonCode": "external-official-document",
+        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
+        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+      }
+    ],
+    "articleVerification": {
+      "checkedAt": "2026-07-24",
+      "method": "전북 조례 원문의 명시 조문 존재를 OpenAPI 응답으로 확인. 국가법 조문은 미연계로 uncheckable 처리.",
+      "citationEntries": 6,
+      "explicitCitationEntries": 6,
+      "articleReferences": 6,
+      "verifiedReferences": 6,
+      "missingReferences": 0,
+      "uncheckableReferences": 0
+    }
+  }
+}

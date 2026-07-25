@@ -1,0 +1,371 @@
+{
+  "slug": "integrated-education-finance-fund",
+  "name": "통합교육재정안정화기금",
+  "oneLiner": "회계연도 간 재정 불균형을 조정하고 여유재원을 통합 관리하기 위해 교육비특별회계 전입금·예수금으로 기금을 설치·운용하는 재정 제도",
+  "type": "기금·재정형",
+  "priority": 4,
+  "category": "재정·예산",
+  "whyFirst": "지방자치법·기금관리기본법과 전북 조례가 관리·운용 체계를 명확히 규정해 재정 계열의 기준 사례가 된다.",
+  "asOfDate": "2026-07-24",
+  "status": "full",
+  "canvas": {
+    "purpose": "회계연도 간 재정수입 불균형을 조정하고 각 기금 여유재원을 통합적으로 관리해 교육재정을 안정적으로 운용한다.",
+    "stakeholders": "전북특별자치도교육감, 기금총괄관리관(정책국장)·기금운용관·기금출납원, 기금운용심의위원회, 교육금고, 교육비특별회계",
+    "legalBasis": [
+      {
+        "law": "지방자치법",
+        "articles": "제159조",
+        "kind": "법률"
+      },
+      {
+        "law": "지방자치단체 기금관리기본법",
+        "articles": "제16조",
+        "kind": "법률"
+      },
+      {
+        "law": "전북특별자치도교육청 기금의 관리 및 통합교육재정안정화기금 설치ㆍ운용 조례",
+        "articles": "제1조~제12조",
+        "kind": "조례"
+      }
+    ],
+    "authorities": [
+      {
+        "name": "전북특별자치도교육감",
+        "role": "기금 설치·관리관 지정, 운용 총괄"
+      },
+      {
+        "name": "기금총괄관리관(정책국장)·기금운용관",
+        "role": "기금 운용계획 수립·총괄"
+      },
+      {
+        "name": "통합교육재정안정화기금운용심의위원회",
+        "role": "운용계획·중요사항 심의"
+      },
+      {
+        "name": "교육금고",
+        "role": "기금 예치·관리"
+      }
+    ],
+    "procedure": [
+      "기금운용관이 회계연도마다 소관 기금 운용계획을 수립한다 (조례 제5조)",
+      "기금운용심의위원회 심의를 거쳐 기금총괄관리관에게 제출한다 (조례 제5조)",
+      "교육감이 통합교육재정안정화기금(통합 계정·재정안정화 계정)을 설치한다 (조례 제6조)",
+      "교육비특별회계 전입금·예수금 등으로 계정을 조성한다 (조례 제7조·제8조)",
+      "교육금고에 별도 계좌를 설치해 예치·운용한다 (조례 제9조)",
+      "운용심의위원회가 운용계획 등 중요사항을 심의한다 (조례 제10조)",
+      "회계관계공무원이 기금을 관리·운용한다 (조례 제11조)"
+    ],
+    "moneyFlow": "교육비특별회계 전입금과 다른 기금으로부터의 예수금 등으로 조성하고, 재정 불균형 조정과 안정적 운용에 사용한다. 존속기한은 2029년 12월 31일이다 (조례 제7·8·12조).",
+    "docsFlow": "기금운용계획안 → 기금운용심의위원회 심의 → 총괄관리관 제출 → 통합기금 설치·계정 조성 → 교육금고 예치 → 결산·심의.",
+    "bottlenecks": [
+      "계정 간 예탁·상환 시점 조정 (현장 검증 필요)",
+      "여유재원 규모·전입 규모 판단 (현장 검증 필요)",
+      "존속기한(2029) 이후 연장·정리 계획"
+    ],
+    "reformPoints": [
+      "중기 교육재정 전망과 기금 운용 연동",
+      "심의 절차·결과의 공개 강화",
+      "계정 간 자금 이동 규칙 명확화"
+    ]
+  },
+  "related": [
+    "교육비특별회계 예산편성",
+    "지방교육재정교부금",
+    "기금 운용"
+  ],
+  "fieldVerification": [
+    "계정 간 예탁·상환의 실제 시점·규모 결정",
+    "기금운용심의위원회 구성·개최 실무",
+    "회계관계공무원 지정·분임 운영"
+  ],
+  "process": {
+    "lanes": [
+      "교육비특별회계",
+      "기금운용관(각 국)",
+      "기금총괄관리관(정책국)",
+      "기금운용심의위원회",
+      "교육금고"
+    ],
+    "stages": [
+      "G0 계획",
+      "G1 심의",
+      "G2 설치·조성",
+      "G3 운용",
+      "G4 점검"
+    ],
+    "nodes": [
+      {
+        "id": "P01",
+        "name": "기금 운용계획 수립",
+        "lane": "기금운용관(각 국)",
+        "stage": "G0 계획",
+        "type": "task",
+        "status": "current",
+        "actor": "기금운용관",
+        "action": "회계연도마다 소관 기금 운용계획 수립",
+        "output_documents": [
+          "기금운용계획안"
+        ],
+        "deadline": "회계연도마다",
+        "blocker": null,
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 기금의 관리 및 통합교육재정안정화기금 설치ㆍ운용 조례",
+            "article": "제5조"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "name": "기금운용심의위원회 심의",
+        "lane": "기금운용심의위원회",
+        "stage": "G1 심의",
+        "type": "gateway",
+        "status": "waiting",
+        "actor": "운용심의위원회",
+        "action": "기금운용계획안 심의",
+        "output_documents": [
+          "심의 결과"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 기금의 관리 및 통합교육재정안정화기금 설치ㆍ운용 조례",
+            "article": "제5조"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "name": "총괄관리관 제출·조정",
+        "lane": "기금총괄관리관(정책국)",
+        "stage": "G1 심의",
+        "type": "task",
+        "status": "waiting",
+        "actor": "기금총괄관리관(정책국장)",
+        "action": "심의를 거친 운용계획을 총괄 조정·확정",
+        "output_documents": [
+          "확정 운용계획"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8
+      },
+      {
+        "id": "P04",
+        "name": "통합기금 설치(2계정)",
+        "lane": "기금총괄관리관(정책국)",
+        "stage": "G2 설치·조성",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "통합 계정·재정안정화 계정으로 통합기금 설치",
+        "output_documents": [
+          "기금 설치"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 기금의 관리 및 통합교육재정안정화기금 설치ㆍ운용 조례",
+            "article": "제6조"
+          }
+        ]
+      },
+      {
+        "id": "P05",
+        "name": "계정 재원 조성(전입금·예수금)",
+        "lane": "교육비특별회계",
+        "stage": "G2 설치·조성",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육비특별회계",
+        "action": "전입금·예수금 등으로 통합·재정안정화 계정 조성",
+        "output_documents": [
+          "전입·예수 내역"
+        ],
+        "deadline": null,
+        "blocker": "전입 규모 판단",
+        "confidence": 0.75,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 기금의 관리 및 통합교육재정안정화기금 설치ㆍ운용 조례",
+            "article": "제7조"
+          }
+        ]
+      },
+      {
+        "id": "P06",
+        "name": "교육금고 예치·운용",
+        "lane": "교육금고",
+        "stage": "G3 운용",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육금고",
+        "action": "별도 계좌에 예치하고 운용계획에 따라 운용",
+        "output_documents": [
+          "예치·운용 기록"
+        ],
+        "deadline": null,
+        "blocker": "계정 간 예탁·상환 시점",
+        "confidence": 0.7,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 기금의 관리 및 통합교육재정안정화기금 설치ㆍ운용 조례",
+            "article": "제9조"
+          }
+        ]
+      },
+      {
+        "id": "P07",
+        "name": "회계관계공무원 관리",
+        "lane": "기금운용관(각 국)",
+        "stage": "G3 운용",
+        "type": "task",
+        "status": "waiting",
+        "actor": "통합기금운용관·출납원",
+        "action": "지정된 회계관계공무원이 기금 관리·운용",
+        "output_documents": [
+          "관리 기록"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 기금의 관리 및 통합교육재정안정화기금 설치ㆍ운용 조례",
+            "article": "제11조"
+          }
+        ]
+      },
+      {
+        "id": "P08",
+        "name": "결산·심의 환류",
+        "lane": "기금운용심의위원회",
+        "stage": "G4 점검",
+        "type": "task",
+        "status": "waiting",
+        "actor": "운용심의위원회",
+        "action": "운용 결과 심의로 차기 운용계획에 환류",
+        "output_documents": [
+          "결산·심의 결과"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 기금의 관리 및 통합교육재정안정화기금 설치ㆍ운용 조례",
+            "article": "제10조"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "P01",
+        "target": "P02",
+        "type": "sequence"
+      },
+      {
+        "id": "E02",
+        "source": "P02",
+        "target": "P03",
+        "type": "sequence"
+      },
+      {
+        "id": "E03",
+        "source": "P03",
+        "target": "P04",
+        "type": "sequence"
+      },
+      {
+        "id": "E04",
+        "source": "P04",
+        "target": "P05",
+        "type": "sequence"
+      },
+      {
+        "id": "E05",
+        "source": "P05",
+        "target": "P06",
+        "type": "sequence"
+      },
+      {
+        "id": "E06",
+        "source": "P06",
+        "target": "P07",
+        "type": "message"
+      },
+      {
+        "id": "E07",
+        "source": "P07",
+        "target": "P08",
+        "type": "sequence"
+      },
+      {
+        "id": "E08",
+        "source": "P08",
+        "target": "P01",
+        "type": "loop",
+        "label": "차기 운용계획 반영"
+      }
+    ],
+    "warnings": [
+      "계정 조성·예치 규모와 시점(P05·P06)은 재정 여건에 따라 달라져 confidence를 낮춤(현장 검증 필요)."
+    ]
+  },
+  "verification": {
+    "status": "needs-review",
+    "verifiedAt": "2026-07-24",
+    "method": "국가법령정보센터 자치법규 원문(전북특별자치도교육청 기금의 관리 및 통합교육재정안정화기금 설치ㆍ운용 조례, 2026-05-08 시행)을 OpenAPI로 대조. 상위 국가법령은 미연계로 기록.",
+    "scope": "전북 조례 조문은 원문과 대조 확인. 조례가 위임·전제한 국가법령 절차와 현장 운영 세부는 unresolved 및 fieldVerification으로 분리했다.",
+    "notes": [
+      "조례 소관: 전북특별자치도교육청 예산과",
+      "자치법규 MST 2127441. 국가법령정보 OpenAPI(OC 인증)로 원문 확인."
+    ],
+    "sources": [
+      {
+        "law": "전북특별자치도교육청 기금의 관리 및 통합교육재정안정화기금 설치ㆍ운용 조례",
+        "kind": "조례",
+        "sourceType": "admin-rule",
+        "officialName": "전북특별자치도교육청 기금의 관리 및 통합교육재정안정화기금 설치ㆍ운용 조례",
+        "adminRuleId": "2127441",
+        "adminRuleSerial": "5991",
+        "promulgatedOn": "2026-05-08",
+        "officialUrl": "https://law.go.kr/자치법규/전북특별자치도교육청기금의관리및통합교육재정안정화기금설치ㆍ운용조례"
+      }
+    ],
+    "unresolved": [
+      {
+        "law": "지방자치법",
+        "kind": "법률",
+        "reasonCode": "external-official-document",
+        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
+        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+      },
+      {
+        "law": "지방자치단체 기금관리기본법",
+        "kind": "법률",
+        "reasonCode": "external-official-document",
+        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
+        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+      }
+    ],
+    "articleVerification": {
+      "checkedAt": "2026-07-24",
+      "method": "전북 조례 원문의 명시 조문 존재를 OpenAPI 응답으로 확인. 국가법 조문은 미연계로 uncheckable 처리.",
+      "citationEntries": 7,
+      "explicitCitationEntries": 7,
+      "articleReferences": 7,
+      "verifiedReferences": 7,
+      "missingReferences": 0,
+      "uncheckableReferences": 0
+    }
+  }
+}

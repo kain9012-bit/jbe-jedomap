@@ -1,0 +1,348 @@
+{
+  "slug": "alternative-school-support",
+  "name": "대안교육특성화학교 지원",
+  "oneLiner": "대안교육을 운영하는 특성화학교의 안정적 운영과 교육 다양성을 위해 지원계획·지원사업·행재정 지원과 성과점검을 규정한 제도",
+  "type": "계획·지원형",
+  "priority": 6,
+  "category": "교육과정·대안교육",
+  "whyFirst": "학교 유형별 지원 제도의 사례로, 지원계획-사업-협의회-점검의 흐름이 조례에 뚜렷하다.",
+  "asOfDate": "2026-07-24",
+  "status": "full",
+  "canvas": {
+    "purpose": "대안교육을 운영하는 특성화학교의 안정적 운영과 교육의 다양성 실현을 위해 지원계획 수립과 행·재정 지원, 성과점검을 규정한다.",
+    "stakeholders": "대안교육특성화학교와 학생, 학교의 장, 전북특별자치도교육감(민주시민교육과), 대안교육특성화학교 지원협의회, 지역자원·유관기관",
+    "legalBasis": [
+      {
+        "law": "초·중등교육법 시행령",
+        "articles": "제91조(특성화학교)",
+        "kind": "대통령령"
+      },
+      {
+        "law": "전북특별자치도교육청 대안교육특성화학교 지원 조례",
+        "articles": "제1조~제9조",
+        "kind": "조례"
+      }
+    ],
+    "authorities": [
+      {
+        "name": "전북특별자치도교육감(민주시민교육과)",
+        "role": "지원계획 수립, 지원사업 시행, 행·재정 지원, 성과점검"
+      },
+      {
+        "name": "대안교육특성화학교 지원협의회",
+        "role": "지원정책 수립·조정·성과점검 심의·자문"
+      },
+      {
+        "name": "대안교육특성화학교의 장",
+        "role": "지원사업 운영, 점검 자료 제출"
+      }
+    ],
+    "procedure": [
+      "교육감이 대안교육특성화학교 지원계획을 수립·시행한다 (조례 제5조)",
+      "교육과정·프로그램, 체험·진로 연계, 지역자원 연계 등 지원사업을 추진한다 (조례 제6조)",
+      "지원협의회가 지원정책 수립·조정과 성과점검을 심의·자문한다 (조례 제7조)",
+      "예산 범위에서 행·재정적 지원을 한다 (조례 제8조)",
+      "지원사업 추진실적을 점검하고 사후관리한다 (조례 제9조)",
+      "학교의 장이 점검에 필요한 자료를 제출한다 (조례 제9조)"
+    ],
+    "moneyFlow": "예산의 범위에서 지원사업 추진·운영에 필요한 행·재정적 지원을 한다 (조례 제8조).",
+    "docsFlow": "지원계획 → 지원사업 계획·운영 → 지원협의회 심의·자문 → 행·재정 지원 → 추진실적 점검·자료 제출 → 사후관리.",
+    "bottlenecks": [
+      "소규모 학교의 운영 안정성 (현장 검증 필요)",
+      "프로그램 질의 학교 간 편차 (현장 검증 필요)",
+      "지역자원 연계의 지속성"
+    ],
+    "reformPoints": [
+      "지역자원 연계의 상설 창구화",
+      "성과점검 결과의 지원계획 환류",
+      "학교 간 우수 프로그램 공유"
+    ]
+  },
+  "related": [
+    "대안교육 위탁교육기관 지원",
+    "학업중단 예방 및 대안교육 지원",
+    "혁신학교 운영·지원"
+  ],
+  "fieldVerification": [
+    "지원사업 선정·배분 기준",
+    "지원협의회 구성·개최 실무",
+    "성과점검 지표와 사후관리 절차"
+  ],
+  "process": {
+    "lanes": [
+      "대안교육특성화학교·학생",
+      "학교",
+      "교육청(민주시민교육과)",
+      "지원협의회"
+    ],
+    "stages": [
+      "G0 계획",
+      "G1 지원사업",
+      "G2 심의",
+      "G3 점검·환류"
+    ],
+    "nodes": [
+      {
+        "id": "P01",
+        "name": "지원계획 수립",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G0 계획",
+        "type": "task",
+        "status": "done",
+        "actor": "교육감",
+        "action": "기본방향·추진과제·인력·교육여건 등을 담은 지원계획 수립·시행",
+        "output_documents": [
+          "지원계획"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 대안교육특성화학교 지원 조례",
+            "article": "제5조"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "name": "지원사업 추진",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G1 지원사업",
+        "type": "task",
+        "status": "current",
+        "actor": "교육감",
+        "action": "교육과정·프로그램, 체험·진로 연계, 지역자원 연계 등 지원",
+        "output_documents": [
+          "지원사업 계획"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 대안교육특성화학교 지원 조례",
+            "article": "제6조"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "name": "학교 지원사업 운영",
+        "lane": "학교",
+        "stage": "G1 지원사업",
+        "type": "task",
+        "status": "waiting",
+        "actor": "대안교육특성화학교의 장",
+        "action": "지원받은 사업을 운영",
+        "output_documents": [
+          "사업 운영 기록"
+        ],
+        "deadline": null,
+        "blocker": "소규모 운영 안정성",
+        "confidence": 0.6
+      },
+      {
+        "id": "P04",
+        "name": "지원협의회 심의·자문",
+        "lane": "지원협의회",
+        "stage": "G2 심의",
+        "type": "gateway",
+        "status": "waiting",
+        "actor": "지원협의회",
+        "action": "지원정책 수립·조정·성과점검 심의·자문",
+        "output_documents": [
+          "심의·자문 결과"
+        ],
+        "deadline": null,
+        "blocker": "협의회 임의설치(둘 수 있다)",
+        "confidence": 0.7,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 대안교육특성화학교 지원 조례",
+            "article": "제7조"
+          }
+        ]
+      },
+      {
+        "id": "P05",
+        "name": "행·재정 지원",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G1 지원사업",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "예산 범위에서 행·재정적 지원",
+        "output_documents": [
+          "지원 결정"
+        ],
+        "deadline": null,
+        "blocker": "예산 범위 제약",
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 대안교육특성화학교 지원 조례",
+            "article": "제8조"
+          }
+        ]
+      },
+      {
+        "id": "P06",
+        "name": "학생 대안교육 참여",
+        "lane": "대안교육특성화학교·학생",
+        "stage": "G1 지원사업",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학생",
+        "action": "대안교육 프로그램·체험·진로 활동 참여",
+        "output_documents": [],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.6
+      },
+      {
+        "id": "P07",
+        "name": "추진실적 점검·자료 제출",
+        "lane": "학교",
+        "stage": "G3 점검·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교의 장·교육감",
+        "action": "지원사업 추진실적 점검, 학교의 자료 제출",
+        "output_documents": [
+          "점검 결과",
+          "제출 자료"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.75,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 대안교육특성화학교 지원 조례",
+            "article": "제9조"
+          }
+        ]
+      },
+      {
+        "id": "P08",
+        "name": "사후관리·차기 계획 환류",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G3 점검·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "점검 결과로 사후관리하고 차기 지원계획에 반영",
+        "output_documents": [
+          "사후관리",
+          "차기 계획 반영안"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.75,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 대안교육특성화학교 지원 조례",
+            "article": "제9조"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "P01",
+        "target": "P02",
+        "type": "sequence"
+      },
+      {
+        "id": "E02",
+        "source": "P02",
+        "target": "P04",
+        "type": "sequence"
+      },
+      {
+        "id": "E03",
+        "source": "P04",
+        "target": "P05",
+        "type": "sequence",
+        "label": "심의 반영"
+      },
+      {
+        "id": "E04",
+        "source": "P05",
+        "target": "P03",
+        "type": "message",
+        "label": "행·재정 지원"
+      },
+      {
+        "id": "E05",
+        "source": "P03",
+        "target": "P06",
+        "type": "sequence"
+      },
+      {
+        "id": "E06",
+        "source": "P03",
+        "target": "P07",
+        "type": "sequence"
+      },
+      {
+        "id": "E07",
+        "source": "P07",
+        "target": "P08",
+        "type": "sequence"
+      },
+      {
+        "id": "E08",
+        "source": "P08",
+        "target": "P01",
+        "type": "loop",
+        "label": "차기 지원계획 반영"
+      }
+    ],
+    "warnings": [
+      "지원협의회는 '둘 수 있다'는 임의 규정이며(P04), 소규모 학교 운영 안정성(P03)은 현장 여건에 좌우되어 confidence를 낮춤(현장 검증 필요)."
+    ]
+  },
+  "verification": {
+    "status": "needs-review",
+    "verifiedAt": "2026-07-24",
+    "method": "국가법령정보센터 자치법규 원문(전북특별자치도교육청 대안교육특성화학교 지원 조례, 2026-06-28 시행)을 OpenAPI로 대조. 상위 국가법령은 미연계로 기록.",
+    "scope": "전북 조례 조문은 원문과 대조 확인. 조례가 위임·전제한 국가법령 절차와 현장 운영 세부는 unresolved 및 fieldVerification으로 분리했다.",
+    "notes": [
+      "조례 소관: 전북특별자치도교육청 민주시민교육과",
+      "자치법규 MST 2116647. 국가법령정보 OpenAPI(OC 인증)로 원문 확인."
+    ],
+    "sources": [
+      {
+        "law": "전북특별자치도교육청 대안교육특성화학교 지원 조례",
+        "kind": "조례",
+        "sourceType": "admin-rule",
+        "officialName": "전북특별자치도교육청 대안교육특성화학교 지원 조례",
+        "adminRuleId": "2116647",
+        "adminRuleSerial": "5968",
+        "promulgatedOn": "2026-03-27",
+        "officialUrl": "https://law.go.kr/자치법규/전북특별자치도교육청대안교육특성화학교지원조례"
+      }
+    ],
+    "unresolved": [
+      {
+        "law": "초·중등교육법 시행령",
+        "kind": "대통령령",
+        "reasonCode": "external-official-document",
+        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
+        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+      }
+    ],
+    "articleVerification": {
+      "checkedAt": "2026-07-24",
+      "method": "전북 조례 원문의 명시 조문 존재를 OpenAPI 응답으로 확인. 국가법 조문은 미연계로 uncheckable 처리.",
+      "citationEntries": 6,
+      "explicitCitationEntries": 6,
+      "articleReferences": 6,
+      "verifiedReferences": 6,
+      "missingReferences": 0,
+      "uncheckableReferences": 0
+    }
+  }
+}

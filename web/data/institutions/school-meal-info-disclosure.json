@@ -1,0 +1,375 @@
+{
+  "slug": "school-meal-info-disclosure",
+  "name": "학교급식 정보공개",
+  "oneLiner": "학교가 급식 경비·식생활지도·식품비 비율·알레르기 유발 식재료가 표시된 식단표를 정보통신망과 안내장으로 공개해 학생·학부모의 알권리를 보장하는 제도",
+  "type": "정보공개·공시형",
+  "priority": 2,
+  "category": "학생지원·안전",
+  "whyFirst": "국가법(학교급식법)과 전북 조례가 공개 대상을 구체적으로 규정해 절차가 명확하고, 대민 접점이 커 검증에 좋다.",
+  "asOfDate": "2026-07-24",
+  "status": "full",
+  "canvas": {
+    "purpose": "학교가 보유·관리하는 학교급식 정보를 공개해 학생·학부모의 알권리를 보장하고 급식의 질을 높인다. 제공 정보에 학생·교직원 개인정보는 포함하지 않는다.",
+    "stakeholders": "학생·학부모, 학교의 장, 영양(교)사, 전북특별자치도교육감(문예체건강과)",
+    "legalBasis": [
+      {
+        "law": "학교급식법",
+        "articles": "제2조, 제13조",
+        "kind": "법률"
+      },
+      {
+        "law": "학교급식법 시행규칙",
+        "articles": "제7조",
+        "kind": "부령"
+      },
+      {
+        "law": "전자정부법",
+        "articles": "제2조제10호",
+        "kind": "법률"
+      },
+      {
+        "law": "전북특별자치도교육청 학교급식 정보공개에 관한 조례",
+        "articles": "제1조~제9조",
+        "kind": "조례"
+      }
+    ],
+    "authorities": [
+      {
+        "name": "전북특별자치도교육감(문예체건강과)",
+        "role": "학교급식 정보공개 시책 마련"
+      },
+      {
+        "name": "학교의 장",
+        "role": "공개 대상 정보 관리·공개, 급식게시판 운영, 만족도 조사 실시"
+      }
+    ],
+    "procedure": [
+      "교육감이 학교급식 정보공개에 필요한 시책을 마련한다 (조례 제5조)",
+      "학교가 급식 경비·식생활지도·식품비 사용비율·알레르기 식단표 등 공개 대상 정보를 관리한다 (조례 제6조)",
+      "학교가 정보통신망이나 안내장으로 정보를 공개한다 (조례 제6조)",
+      "알레르기 유발 식재료가 표시된 식단표를 정보통신망과 안내장으로 공개한다 (조례 제6조제3호)",
+      "학교가 홈페이지에 학교급식게시판을 운영해 의견을 수렴한다 (조례 제7조)",
+      "학생·학부모가 게시판에 의견을 제출한다 (조례 제7조)",
+      "학교가 연 1회 이상 급식 만족도 조사를 실시한다 (조례 제8조)",
+      "조사·의견 결과를 급식 개선에 반영한다"
+    ],
+    "moneyFlow": "별도 재정지원 규정은 없다. 급식 경비 자체가 공개 대상 정보에 포함된다 (조례 제6조제1호).",
+    "docsFlow": "공개 대상 정보(급식 경비, 식생활지도, 식품비 비율, 알레르기 표시 식단표) → 정보통신망·안내장 공개 → 학교급식게시판 의견 → 연 1회 만족도 조사 결과.",
+    "bottlenecks": [
+      "제공 정보에 개인정보를 포함하지 않도록 관리해야 함 (조례 제3조제2항)",
+      "학교별 공개 범위·형식의 편차 (현장 검증 필요)",
+      "게시판 의견 반영의 실효성 (현장 검증 필요)"
+    ],
+    "reformPoints": [
+      "공개 항목 표준 서식과 알레르기 표시 표준화",
+      "만족도 조사 결과의 정례적 환류 체계",
+      "학교급식게시판 의견-개선 연결 관리"
+    ]
+  },
+  "related": [
+    "정보공개청구",
+    "학교급식 안전관리",
+    "학생 영양·식생활 교육"
+  ],
+  "fieldVerification": [
+    "학교별 실제 공개 항목·주기·형식",
+    "급식게시판 의견의 처리·반영 절차",
+    "만족도 조사 설계와 결과 활용 실무"
+  ],
+  "process": {
+    "lanes": [
+      "학생·학부모",
+      "학교(학교장·영양교사)",
+      "교육청(문예체건강과)"
+    ],
+    "stages": [
+      "G0 시책",
+      "G1 정보관리",
+      "G2 공개",
+      "G3 소통·환류"
+    ],
+    "nodes": [
+      {
+        "id": "P01",
+        "name": "급식 정보공개 시책 마련",
+        "lane": "교육청(문예체건강과)",
+        "stage": "G0 시책",
+        "type": "task",
+        "status": "done",
+        "actor": "교육감(문예체건강과)",
+        "action": "학교급식 정보공개에 필요한 시책 수립",
+        "output_documents": [
+          "정보공개 시책"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교급식 정보공개에 관한 조례",
+            "article": "제5조"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "name": "공개 대상 정보 관리",
+        "lane": "학교(학교장·영양교사)",
+        "stage": "G1 정보관리",
+        "type": "task",
+        "status": "done",
+        "actor": "학교의 장·영양교사",
+        "action": "급식 경비·식생활지도·식품비 비율·알레르기 식단표 등 관리",
+        "output_documents": [
+          "급식 경비 내역",
+          "식단표"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교급식 정보공개에 관한 조례",
+            "article": "제6조"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "name": "정보통신망·안내장 공개",
+        "lane": "학교(학교장·영양교사)",
+        "stage": "G2 공개",
+        "type": "task",
+        "status": "current",
+        "actor": "학교의 장",
+        "action": "공개 대상 정보를 정보통신망이나 안내장으로 공개",
+        "output_documents": [
+          "공개 게시물",
+          "안내장"
+        ],
+        "deadline": null,
+        "blocker": "개인정보 포함 금지 준수",
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교급식 정보공개에 관한 조례",
+            "article": "제6조"
+          }
+        ]
+      },
+      {
+        "id": "P04",
+        "name": "알레르기 식단표 공개",
+        "lane": "학교(학교장·영양교사)",
+        "stage": "G2 공개",
+        "type": "notice",
+        "status": "waiting",
+        "actor": "영양교사",
+        "action": "알레르기 유발 식재료가 표시된 식단표를 정보통신망·안내장으로 공개",
+        "output_documents": [
+          "알레르기 표시 식단표"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교급식 정보공개에 관한 조례",
+            "article": "제6조"
+          }
+        ]
+      },
+      {
+        "id": "P05",
+        "name": "학교급식게시판 운영",
+        "lane": "학교(학교장·영양교사)",
+        "stage": "G3 소통·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교의 장",
+        "action": "홈페이지에 급식게시판을 운영하고 의견 수렴",
+        "output_documents": [
+          "학교급식게시판"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교급식 정보공개에 관한 조례",
+            "article": "제7조"
+          }
+        ]
+      },
+      {
+        "id": "P06",
+        "name": "학부모 의견 제출",
+        "lane": "학생·학부모",
+        "stage": "G3 소통·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학생·학부모",
+        "action": "급식게시판에 의견 제출",
+        "output_documents": [
+          "게시판 의견"
+        ],
+        "deadline": null,
+        "blocker": "의견 반영 실효성",
+        "confidence": 0.6
+      },
+      {
+        "id": "P07",
+        "name": "만족도 조사(연 1회 이상)",
+        "lane": "학교(학교장·영양교사)",
+        "stage": "G3 소통·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교의 장",
+        "action": "학생·교직원·학부모 대상 급식 만족도 조사 실시",
+        "output_documents": [
+          "만족도 조사 결과"
+        ],
+        "deadline": "연 1회 이상",
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교급식 정보공개에 관한 조례",
+            "article": "제8조"
+          }
+        ]
+      },
+      {
+        "id": "P08",
+        "name": "결과 환류·개선",
+        "lane": "학교(학교장·영양교사)",
+        "stage": "G3 소통·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교의 장·영양교사",
+        "action": "의견·조사 결과를 급식 운영 개선에 반영",
+        "output_documents": [
+          "개선 조치"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.6
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "P01",
+        "target": "P02",
+        "type": "sequence"
+      },
+      {
+        "id": "E02",
+        "source": "P02",
+        "target": "P03",
+        "type": "sequence"
+      },
+      {
+        "id": "E03",
+        "source": "P03",
+        "target": "P04",
+        "type": "sequence"
+      },
+      {
+        "id": "E04",
+        "source": "P03",
+        "target": "P05",
+        "type": "sequence"
+      },
+      {
+        "id": "E05",
+        "source": "P05",
+        "target": "P06",
+        "type": "message"
+      },
+      {
+        "id": "E06",
+        "source": "P06",
+        "target": "P08",
+        "type": "sequence"
+      },
+      {
+        "id": "E07",
+        "source": "P05",
+        "target": "P07",
+        "type": "sequence"
+      },
+      {
+        "id": "E08",
+        "source": "P07",
+        "target": "P08",
+        "type": "sequence"
+      },
+      {
+        "id": "E09",
+        "source": "P08",
+        "target": "P02",
+        "type": "loop",
+        "label": "차기 공개 반영"
+      }
+    ],
+    "warnings": [
+      "게시판 의견 반영·개선(P06·P08) 등 실효성은 현장 운영에 달려 있어 confidence를 낮춤(현장 검증 필요)."
+    ]
+  },
+  "verification": {
+    "status": "needs-review",
+    "verifiedAt": "2026-07-24",
+    "method": "국가법령정보센터 자치법규 원문(전북특별자치도교육청 학교급식 정보공개에 관한 조례, 2025-11-14 시행)을 OpenAPI로 대조. 상위 국가법령은 미연계로 기록.",
+    "scope": "전북 조례 조문은 원문과 대조 확인. 조례가 위임·전제한 국가법령 절차와 현장 운영 세부는 unresolved 및 fieldVerification으로 분리했다.",
+    "notes": [
+      "조례 소관: 전북특별자치도교육청 문예체건강과",
+      "자치법규 MST 2083497. 국가법령정보 OpenAPI(OC 인증)로 원문 확인."
+    ],
+    "sources": [
+      {
+        "law": "전북특별자치도교육청 학교급식 정보공개에 관한 조례",
+        "kind": "조례",
+        "sourceType": "admin-rule",
+        "officialName": "전북특별자치도교육청 학교급식 정보공개에 관한 조례",
+        "adminRuleId": "2083497",
+        "adminRuleSerial": "5941",
+        "promulgatedOn": "2025-11-14",
+        "officialUrl": "https://law.go.kr/자치법규/전북특별자치도교육청학교급식정보공개에관한조례"
+      }
+    ],
+    "unresolved": [
+      {
+        "law": "학교급식법",
+        "kind": "법률",
+        "reasonCode": "external-official-document",
+        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
+        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+      },
+      {
+        "law": "학교급식법 시행규칙",
+        "kind": "부령",
+        "reasonCode": "external-official-document",
+        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
+        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+      },
+      {
+        "law": "전자정부법",
+        "kind": "법률",
+        "reasonCode": "external-official-document",
+        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
+        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+      }
+    ],
+    "articleVerification": {
+      "checkedAt": "2026-07-24",
+      "method": "전북 조례 원문의 명시 조문 존재를 OpenAPI 응답으로 확인. 국가법 조문은 미연계로 uncheckable 처리.",
+      "citationEntries": 6,
+      "explicitCitationEntries": 6,
+      "articleReferences": 6,
+      "verifiedReferences": 6,
+      "missingReferences": 0,
+      "uncheckableReferences": 0
+    }
+  }
+}

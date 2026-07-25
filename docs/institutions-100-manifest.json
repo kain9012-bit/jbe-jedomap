@@ -1,3 +1,8 @@
 [
- { "priority": 1, "slug": "student-tailored-integrated-support", "name": "학생맞춤통합지원", "type": "학생지원·연계형", "category": "학생지원·안전" }
+ { "priority": 1, "slug": "student-tailored-integrated-support", "name": "학생맞춤통합지원", "type": "학생지원·연계형", "category": "학생지원·안전" },
+ { "priority": 2, "slug": "school-meal-info-disclosure", "name": "학교급식 정보공개", "type": "정보공개·공시형", "category": "학생지원·안전" },
+ { "priority": 3, "slug": "special-education-promotion", "name": "특수교육 진흥·지원", "type": "계획·지원형", "category": "특수·유아교육" },
+ { "priority": 4, "slug": "integrated-education-finance-fund", "name": "통합교육재정안정화기금", "type": "기금·재정형", "category": "재정·예산" },
+ { "priority": 5, "slug": "private-academy-establishment", "name": "학원 설립·운영·지도점검", "type": "인허가·지도점검형", "category": "평생·직업·학원" },
+ { "priority": 6, "slug": "alternative-school-support", "name": "대안교육특성화학교 지원", "type": "계획·지원형", "category": "교육과정·대안교육" }
 ]

@@ -1,0 +1,372 @@
+{
+  "slug": "private-academy-establishment",
+  "name": "학원 설립·운영·지도점검",
+  "oneLiner": "학원·교습소의 등록 기준과 교습시간을 관리하고, 지도·점검을 통해 위반 시 행정처분하는 인허가·감독 제도",
+  "type": "인허가·지도점검형",
+  "priority": 5,
+  "category": "평생·직업·학원",
+  "whyFirst": "학원법과 시행령의 위임을 받은 전북 조례가 등록·시설·교습시간·행정처분을 구체적으로 규정해 인허가형 기준 사례가 된다.",
+  "asOfDate": "2026-07-24",
+  "status": "full",
+  "canvas": {
+    "purpose": "학원·교습소의 설립 등록 기준, 시설·교습과정 기준, 교습시간을 정하고 지도·점검과 행정처분으로 건전한 학원 운영을 유도한다.",
+    "stakeholders": "학원설립·운영자, 강사·교습자, 학생·학부모, 교육지원청(교육장), 전북특별자치도교육감(창의인재교육과), 학원자율관리위원회·위탁연수기관",
+    "legalBasis": [
+      {
+        "law": "학원의 설립·운영 및 과외교습에 관한 법률",
+        "articles": "제4조, 제8조, 제16조, 제17조",
+        "kind": "법률"
+      },
+      {
+        "law": "학원의 설립·운영 및 과외교습에 관한 법률 시행령",
+        "kind": "대통령령"
+      },
+      {
+        "law": "전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례",
+        "articles": "제3조의2~제11조",
+        "kind": "조례"
+      }
+    ],
+    "authorities": [
+      {
+        "name": "교육지원청 교육장",
+        "role": "학원·교습소 등록, 지도·점검, 행정처분"
+      },
+      {
+        "name": "전북특별자치도교육감(창의인재교육과)",
+        "role": "연수 위탁, 학원자율관리위원회 운영 기준"
+      },
+      {
+        "name": "학원자율관리위원회·위탁연수기관",
+        "role": "자율 정화, 설립·운영자·강사 연수"
+      }
+    ],
+    "procedure": [
+      "학원이 시설·교습과정 기준을 갖추어 관할 교육장에게 등록한다 (조례 제3조의2~제3조의5, 법 제8조)",
+      "보험 또는 공제사업에 가입한다 (조례 제2조의2, 법 제4조제3항)",
+      "강사·영양사 등 채용 시 10일 이내 자격서류를 첨부해 등록·통보한다 (조례 제7조)",
+      "교육대상자별 교습시간을 준수한다 (조례 제4조의2, 법 제16조)",
+      "교육장이 지도·점검을 실시한다",
+      "위반 시 경고·시정명령·교습정지·등록말소 등 행정처분한다 (조례 제11조, 법 제17조)",
+      "학원자율관리위원회가 자율 정화 활동을 한다 (조례 제10조)",
+      "설립·운영자·강사가 위탁연수기관 연수를 받는다 (조례 제9조)"
+    ],
+    "moneyFlow": "학원설립·운영자가 보험·공제 가입 비용을 부담한다 (조례 제2조의2). 별도 재정지원은 없다.",
+    "docsFlow": "등록 신청·등록증 → 보험·공제 가입 증빙 → 강사 채용 통보 서류 → 지도·점검 결과 → 행정처분서 → 연수 이수 기록.",
+    "bottlenecks": [
+      "미등록·불법 교습 적발 (현장 검증 필요)",
+      "교습시간 위반 단속의 실효성 (현장 검증 필요)",
+      "지도·점검 인력 대비 학원 수"
+    ],
+    "reformPoints": [
+      "등록·점검·처분의 시스템 연계",
+      "자율관리위원회를 통한 자율 정화 강화",
+      "연수 이수-등록 연동"
+    ]
+  },
+  "related": [
+    "학원 수강생 안전 지원",
+    "영업허가와 신고",
+    "평생·직업교육"
+  ],
+  "fieldVerification": [
+    "실제 등록 심사 서류·기간",
+    "지도·점검 주기·방식과 적발 처리",
+    "행정처분 기준 적용 사례"
+  ],
+  "process": {
+    "lanes": [
+      "학원설립·운영자",
+      "교육지원청(교육장)",
+      "교육청(창의인재교육과)",
+      "학원자율관리위·연수기관"
+    ],
+    "stages": [
+      "G0 등록",
+      "G1 운영기준",
+      "G2 지도점검",
+      "G3 처분·환류"
+    ],
+    "nodes": [
+      {
+        "id": "P01",
+        "name": "학원 설립·등록 신청",
+        "lane": "학원설립·운영자",
+        "stage": "G0 등록",
+        "type": "task",
+        "status": "done",
+        "actor": "학원설립·운영자",
+        "action": "시설·교습과정 기준을 갖추어 관할 교육장에게 등록 신청",
+        "output_documents": [
+          "등록 신청서"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례",
+            "article": "제3조의2"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "name": "등록 심사·등록",
+        "lane": "교육지원청(교육장)",
+        "stage": "G0 등록",
+        "type": "gateway",
+        "status": "waiting",
+        "actor": "교육장",
+        "action": "시설·단위시설·교습과정 기준 심사 후 등록",
+        "output_documents": [
+          "등록증"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례",
+            "article": "제3조의3"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "name": "보험·공제 가입",
+        "lane": "학원설립·운영자",
+        "stage": "G1 운영기준",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학원설립·운영자",
+        "action": "기준 금액 이상 보험 또는 공제 가입",
+        "output_documents": [
+          "가입 증빙"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례",
+            "article": "제2조의2"
+          }
+        ]
+      },
+      {
+        "id": "P04",
+        "name": "강사 채용 통보(10일 내)",
+        "lane": "학원설립·운영자",
+        "stage": "G1 운영기준",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학원설립·운영자",
+        "action": "강사·영양사 등 채용 시 자격서류 첨부해 10일 내 등록·통보",
+        "output_documents": [
+          "채용 통보"
+        ],
+        "deadline": "채용 후 10일 이내",
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례",
+            "article": "제7조"
+          }
+        ]
+      },
+      {
+        "id": "P05",
+        "name": "교습시간 준수",
+        "lane": "학원설립·운영자",
+        "stage": "G1 운영기준",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학원설립·운영자",
+        "action": "교육대상자별 교습시간 준수",
+        "output_documents": [],
+        "deadline": null,
+        "blocker": "심야 교습 등 위반 소지",
+        "confidence": 0.7,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례",
+            "article": "제4조의2"
+          }
+        ]
+      },
+      {
+        "id": "P06",
+        "name": "지도·점검",
+        "lane": "교육지원청(교육장)",
+        "stage": "G2 지도점검",
+        "type": "task",
+        "status": "current",
+        "actor": "교육장",
+        "action": "등록·시설·교습시간 등 준수 여부 지도·점검",
+        "output_documents": [
+          "점검 결과"
+        ],
+        "deadline": null,
+        "blocker": "점검 인력·미등록 적발",
+        "confidence": 0.6
+      },
+      {
+        "id": "P07",
+        "name": "행정처분",
+        "lane": "교육지원청(교육장)",
+        "stage": "G3 처분·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육장",
+        "action": "위반 시 경고·시정명령·교습정지·등록말소 등 처분",
+        "output_documents": [
+          "행정처분서"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례",
+            "article": "제11조"
+          }
+        ]
+      },
+      {
+        "id": "P08",
+        "name": "자율 정화·연수",
+        "lane": "학원자율관리위·연수기관",
+        "stage": "G3 처분·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학원자율관리위원회·위탁연수기관",
+        "action": "자율 정화 활동 및 설립·운영자·강사 연수",
+        "output_documents": [
+          "연수 이수",
+          "자율정화 활동"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.7,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례",
+            "article": "제10조"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "P01",
+        "target": "P02",
+        "type": "sequence"
+      },
+      {
+        "id": "E02",
+        "source": "P02",
+        "target": "P03",
+        "type": "sequence"
+      },
+      {
+        "id": "E03",
+        "source": "P03",
+        "target": "P04",
+        "type": "sequence"
+      },
+      {
+        "id": "E04",
+        "source": "P04",
+        "target": "P05",
+        "type": "sequence"
+      },
+      {
+        "id": "E05",
+        "source": "P05",
+        "target": "P06",
+        "type": "sequence"
+      },
+      {
+        "id": "E06",
+        "source": "P06",
+        "target": "P07",
+        "type": "sequence",
+        "label": "위반 적발"
+      },
+      {
+        "id": "E07",
+        "source": "P06",
+        "target": "P08",
+        "type": "message"
+      },
+      {
+        "id": "E08",
+        "source": "P07",
+        "target": "P06",
+        "type": "loop",
+        "label": "시정 후 재점검"
+      },
+      {
+        "id": "E09",
+        "source": "P08",
+        "target": "P05",
+        "type": "message",
+        "label": "자율 개선"
+      }
+    ],
+    "warnings": [
+      "지도·점검과 미등록 적발(P06)의 실효성은 인력·현장 여건에 좌우되어 confidence를 낮춤(현장 검증 필요)."
+    ]
+  },
+  "verification": {
+    "status": "needs-review",
+    "verifiedAt": "2026-07-24",
+    "method": "국가법령정보센터 자치법규 원문(전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례, 2025-07-11 시행)을 OpenAPI로 대조. 상위 국가법령은 미연계로 기록.",
+    "scope": "전북 조례 조문은 원문과 대조 확인. 조례가 위임·전제한 국가법령 절차와 현장 운영 세부는 unresolved 및 fieldVerification으로 분리했다.",
+    "notes": [
+      "조례 소관: 전북특별자치도교육청 창의인재교육과",
+      "자치법규 MST 2052385. 국가법령정보 OpenAPI(OC 인증)로 원문 확인."
+    ],
+    "sources": [
+      {
+        "law": "전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례",
+        "kind": "조례",
+        "sourceType": "admin-rule",
+        "officialName": "전북특별자치도 학원의 설립ㆍ운영 및 과외교습에 관한 조례",
+        "adminRuleId": "2052385",
+        "adminRuleSerial": "5832",
+        "promulgatedOn": "2025-07-11",
+        "officialUrl": "https://law.go.kr/자치법규/전북특별자치도학원의설립ㆍ운영및과외교습에관한조례"
+      }
+    ],
+    "unresolved": [
+      {
+        "law": "학원의 설립·운영 및 과외교습에 관한 법률",
+        "kind": "법률",
+        "reasonCode": "external-official-document",
+        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
+        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+      },
+      {
+        "law": "학원의 설립·운영 및 과외교습에 관한 법률 시행령",
+        "kind": "대통령령",
+        "reasonCode": "external-official-document",
+        "reason": "상위 국가법령으로 근거가 되나, 이 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
+        "nextStep": "국가법령정보센터에서 해당 법령의 lawId·MST를 연계하고 조문 대조를 수행한다."
+      }
+    ],
+    "articleVerification": {
+      "checkedAt": "2026-07-24",
+      "method": "전북 조례 원문의 명시 조문 존재를 OpenAPI 응답으로 확인. 국가법 조문은 미연계로 uncheckable 처리.",
+      "citationEntries": 7,
+      "explicitCitationEntries": 7,
+      "articleReferences": 7,
+      "verifiedReferences": 7,
+      "missingReferences": 0,
+      "uncheckableReferences": 0
+    }
+  }
+}
