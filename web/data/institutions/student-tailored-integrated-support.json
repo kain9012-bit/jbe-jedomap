@@ -1,0 +1,216 @@
+{
+  "slug": "student-tailored-integrated-support",
+  "name": "학생맞춤통합지원",
+  "oneLiner": "위기·복지·정서·학습 등 복합적 어려움을 겪는 학생을 조기에 발견하고 학교 안팎의 지원을 하나로 연계하는 통합지원 체계",
+  "type": "학생지원·연계형",
+  "priority": 1,
+  "category": "학생지원·안전",
+  "whyFirst": "학교폭력·위기학생·복지 대응을 아우르는 상위 틀이고, 절차가 국가법과 전북 조례로 명확해 파일럿 검증에 적합하다.",
+  "asOfDate": "2026-07-24",
+  "status": "full",
+  "canvas": {
+    "purpose": "학습·정서·행동·복지·건강 등 여러 영역에서 어려움을 겪는 학생을 조기에 발견하고, 학교 내부 지원과 교육청·지자체·복지·의료 등 외부 자원을 하나의 계획으로 묶어 맞춤형으로 지원한다.",
+    "stakeholders": "지원이 필요한 학생과 보호자, 학교(담임교사·통합지원팀), 교육지원청, 전북특별자치도교육청(미래교육과), Wee센터·상담기관, 지자체·복지·의료·법률 등 민·관 협의체 참여기관",
+    "legalBasis": [
+      { "law": "학생맞춤통합지원법", "articles": "제2조, 제15조", "kind": "법률" },
+      { "law": "학생맞춤통합지원법 시행령", "kind": "대통령령" },
+      { "law": "학생맞춤통합지원법 시행규칙", "kind": "부령" },
+      { "law": "전북특별자치도교육청 학생맞춤통합지원 조례", "articles": "제1조~제9조", "kind": "조례" }
+    ],
+    "authorities": [
+      { "name": "전북특별자치도교육감(미래교육과)", "role": "기본계획 매년 수립·시행, 민·관 협의체 설치·운영, 사업 경비 지원 및 표창" },
+      { "name": "학교장·통합지원팀", "role": "지원 필요 학생 발굴, 통합지원 대상 판단, 통합지원계획 수립·실행" },
+      { "name": "교육지원청", "role": "지역 단위 자원 연계, 학교 지원 및 사례 관리 지원" },
+      { "name": "민·관 협의체", "role": "관계기관 협력·연계, 민간자원 연계, 지원 사례 유형 분석·모니터링 협의" }
+    ],
+    "procedure": [
+      "교육감이 지역 특성을 고려해 학생맞춤통합지원 기본계획을 매년 수립·시행한다 (조례 제4조)",
+      "학교가 학습·정서·복지 등 어려움을 겪는 학생을 조기에 발견한다 (조례 제3조)",
+      "학교 통합지원팀이 통합지원 대상 여부와 필요 영역을 판단한다 (법, 현장 검증 필요)",
+      "학생·보호자 동의를 거쳐 통합지원계획을 수립한다 (법, 현장 검증 필요)",
+      "교내 자원과 교육청·지자체·복지·의료 등 외부 자원을 연계한다 (조례 제5조 협의체)",
+      "연계된 지원을 실행하고 사례를 관리한다 (법, 현장 검증 필요)",
+      "협의체가 지원 사례 유형을 분석하고 지원 결과를 점검·모니터링한다 (조례 제6조)",
+      "교육감이 우수 사업 기관·단체 경비를 지원하고 기여자를 표창한다 (조례 제8조·제9조)"
+    ],
+    "moneyFlow": "교육비특별회계 예산의 범위에서, 학생맞춤통합지원 사업을 하는 기관·법인·단체 등에 심사를 거쳐 필요한 경비를 지원한다 (조례 제8조).",
+    "docsFlow": "학생맞춤통합지원 기본계획(매년) → 학생별 통합지원계획서 → 협의체 회의록·연계 의뢰서 → 지원 사례 관리 기록 → 점검·모니터링 결과. 학생 관련 민감정보는 보호자 동의와 개인정보 보호 절차를 거친다 (현장 검증 필요).",
+    "bottlenecks": [
+      "조기 발견의 사각지대: 위기 신호가 드러나지 않는 학생 누락 (현장 검증 필요)",
+      "민감·개인정보 동의와 기관 간 정보 공유의 법적 제약",
+      "학교·교육지원청·외부기관 간 연계 지연과 담당 인력 부족 (현장 검증 필요)",
+      "협의체가 상설이 아니라 '둘 수 있다'는 임의 규정이라 지역별 운영 편차 (조례 제5조)"
+    ],
+    "reformPoints": [
+      "통합지원 대상 발굴~사례관리를 잇는 정보시스템 연계와 표준 사례관리 절차 마련",
+      "민·관 협의체 상설화와 정기 개최 근거 강화",
+      "학교 통합지원팀 전담 인력·연수 확대 (조례 제4조제2항제5호 연수 근거 활용)",
+      "지자체 복지전달체계(희망복지·드림스타트 등)와의 상시 연계 창구 지정"
+    ]
+  },
+  "related": ["학교폭력 사안처리", "특수교육대상자 선정·배치", "교육복지우선지원", "위기학생 심리 치유 지원"],
+  "fieldVerification": [
+    "통합지원 대상 판단 기준과 학교 통합지원팀 구성·운영 실무 (국가법령상 절차이며 전북 조례 원문에는 세부 규정 없음)",
+    "통합지원계획 수립 시 학생·보호자 동의 및 개인정보 처리 절차",
+    "지원 실행·사례관리의 실제 담당 부서·기한·서식",
+    "민·관 협의체의 실제 구성 현황과 개최 주기"
+  ],
+  "verification": {
+    "status": "needs-review",
+    "verifiedAt": "2026-07-24",
+    "method": "국가법령정보센터 자치법규 원문(전북특별자치도조례 제5964호, 2026-03-01 시행) 대조. 상위법·시행령·시행규칙은 미연계 상태로 기록.",
+    "scope": "전북 조례 제1~9조는 원문과 대조 확인. 학생 발견~사례관리 세부 절차는 상위법 「학생맞춤통합지원법」과 현장 운영에 위임되어 fieldVerification 및 unresolved로 분리했다.",
+    "notes": [
+      "조례 소관: 전북특별자치도교육청 미래교육과(063-239-3219)",
+      "조례 MST 2111701. 기관 OC로만 API 접근되어 국가법령정보센터 공개 뷰어로 원문 확인.",
+      "국가법(법·시행령·시행규칙)은 아직 lawId/MST를 연계하지 않아 unresolved로 표기(전북 특화 파일럿 단계)."
+    ],
+    "sources": [
+      {
+        "law": "전북특별자치도교육청 학생맞춤통합지원 조례",
+        "kind": "조례",
+        "sourceType": "admin-rule",
+        "officialName": "전북특별자치도교육청 학생맞춤통합지원 조례",
+        "adminRuleId": "2111701",
+        "adminRuleSerial": "5964",
+        "promulgatedOn": "2026-02-27",
+        "officialUrl": "https://law.go.kr/자치법규/전북특별자치도교육청학생맞춤통합지원조례"
+      }
+    ],
+    "unresolved": [
+      {
+        "law": "학생맞춤통합지원법",
+        "kind": "법률",
+        "reasonCode": "external-official-document",
+        "reason": "상위 국가법으로 발견~사례관리 절차의 근거이나, 이 파일럿 단계에서는 조문 식별자(lawId/MST)를 아직 연계하지 않았다.",
+        "nextStep": "국가법령정보센터에서 학생맞춤통합지원법 lawId·MST를 연계하고 조문 대조를 수행한다."
+      },
+      {
+        "law": "학생맞춤통합지원법 시행령",
+        "kind": "대통령령",
+        "reasonCode": "external-official-document",
+        "reason": "위임 세부사항의 근거이나 식별자 미연계 상태.",
+        "nextStep": "시행령 lawId·MST 연계 후 조문 대조."
+      },
+      {
+        "law": "학생맞춤통합지원법 시행규칙",
+        "kind": "부령",
+        "reasonCode": "external-official-document",
+        "reason": "서식·절차 세부의 근거이나 식별자 미연계 상태.",
+        "nextStep": "시행규칙 lawId·MST 연계 후 조문 대조."
+      }
+    ],
+    "articleVerification": {
+      "checkedAt": "2026-07-24",
+      "method": "전북 조례 원문의 명시 조문(제1~9조) 존재 여부를 공개 뷰어에서 확인. 국가법 조문은 미연계로 uncheckable 처리.",
+      "citationEntries": 8,
+      "explicitCitationEntries": 8,
+      "articleReferences": 9,
+      "verifiedReferences": 7,
+      "missingReferences": 0,
+      "uncheckableReferences": 2
+    }
+  },
+  "process": {
+    "lanes": ["학생·보호자", "학교(담임·통합지원팀)", "교육지원청", "교육청(미래교육과)", "민·관 협의체·외부기관"],
+    "stages": ["G0 기본계획", "G1 발견", "G2 판단·계획", "G3 연계·지원", "G4 점검·환류"],
+    "nodes": [
+      {
+        "id": "P01", "name": "학생맞춤통합지원 기본계획 수립·시행", "lane": "교육청(미래교육과)", "stage": "G0 기본계획",
+        "type": "task", "status": "done", "actor": "교육감(미래교육과)",
+        "action": "지역 특성을 고려해 매년 기본계획 수립·시행(기본방향·사업계획·지원체계·연계협력·연수 포함)",
+        "output_documents": ["학생맞춤통합지원 기본계획"],
+        "deadline": "매년", "blocker": null, "confidence": 0.95,
+        "legal_basis": [{ "law": "전북특별자치도교육청 학생맞춤통합지원 조례", "article": "제4조" }]
+      },
+      {
+        "id": "P02", "name": "지원 필요 학생 조기 발견", "lane": "학교(담임·통합지원팀)", "stage": "G1 발견",
+        "type": "task", "status": "current", "actor": "담임교사·통합지원팀",
+        "action": "학습·정서·행동·복지·건강 등 어려움 신호를 조기에 포착",
+        "output_documents": ["지원 의뢰서"],
+        "deadline": "상시", "blocker": "위기 신호 미표출 학생 누락", "confidence": 0.6,
+        "legal_basis": [{ "law": "전북특별자치도교육청 학생맞춤통합지원 조례", "article": "제3조" }]
+      },
+      {
+        "id": "P03", "name": "통합지원 대상 판단", "lane": "학교(담임·통합지원팀)", "stage": "G2 판단·계획",
+        "type": "gateway", "status": "waiting", "actor": "학교 통합지원팀",
+        "action": "통합지원 대상 여부와 필요 지원 영역을 판단",
+        "output_documents": ["대상 판단 결과"],
+        "deadline": null, "blocker": "판단 기준·팀 운영 실무 미규정(조례 밖)", "confidence": 0.55,
+        "legal_basis": [{ "law": "학생맞춤통합지원법", "article": "제2조" }]
+      },
+      {
+        "id": "P04", "name": "통합지원계획 수립(동의 포함)", "lane": "학교(담임·통합지원팀)", "stage": "G2 판단·계획",
+        "type": "task", "status": "waiting", "actor": "통합지원팀",
+        "action": "학생·보호자 동의를 거쳐 맞춤형 통합지원계획 수립",
+        "output_documents": ["통합지원계획서", "개인정보 수집·이용 동의서"],
+        "deadline": null, "blocker": "민감정보 동의·개인정보 처리 제약", "confidence": 0.55,
+        "legal_basis": [{ "law": "학생맞춤통합지원법", "article": "제15조" }]
+      },
+      {
+        "id": "P05", "name": "민·관 협의체 자원 연계", "lane": "민·관 협의체·외부기관", "stage": "G3 연계·지원",
+        "type": "task", "status": "waiting", "actor": "민·관 협의체",
+        "action": "관계기관 협력·민간자원 연계로 교내외 지원 자원 매칭",
+        "output_documents": ["협의체 회의록", "연계 의뢰서"],
+        "deadline": null, "blocker": "협의체 임의설치로 지역별 운영 편차", "confidence": 0.7,
+        "legal_basis": [{ "law": "전북특별자치도교육청 학생맞춤통합지원 조례", "article": "제5조" }]
+      },
+      {
+        "id": "P06", "name": "교육지원청 지역 연계 지원", "lane": "교육지원청", "stage": "G3 연계·지원",
+        "type": "task", "status": "waiting", "actor": "교육지원청",
+        "action": "지역 단위 자원 연계와 학교 사례 지원",
+        "output_documents": ["연계 지원 기록"],
+        "deadline": null, "blocker": "담당 인력 부족", "confidence": 0.5
+      },
+      {
+        "id": "P07", "name": "지원 실행 및 사례관리", "lane": "학교(담임·통합지원팀)", "stage": "G3 연계·지원",
+        "type": "task", "status": "waiting", "actor": "통합지원팀·연계기관",
+        "action": "계획에 따라 지원을 실행하고 사례를 관리",
+        "output_documents": ["사례관리 기록"],
+        "deadline": null, "blocker": "연계 지연·중복 지원", "confidence": 0.55
+      },
+      {
+        "id": "P08", "name": "사업 경비 지원 심사", "lane": "교육청(미래교육과)", "stage": "G3 연계·지원",
+        "type": "task", "status": "waiting", "actor": "교육감(미래교육과)",
+        "action": "지원 사업 기관·법인·단체를 심사해 예산 범위에서 경비 지원",
+        "output_documents": ["지원 심사 결과", "교부 결정"],
+        "deadline": null, "blocker": "예산 범위 제약", "confidence": 0.9,
+        "legal_basis": [{ "law": "전북특별자치도교육청 학생맞춤통합지원 조례", "article": "제8조" }]
+      },
+      {
+        "id": "P09", "name": "점검·모니터링 및 유형 분석", "lane": "민·관 협의체·외부기관", "stage": "G4 점검·환류",
+        "type": "task", "status": "waiting", "actor": "협의체",
+        "action": "지원 사례 유형 분석과 결과 모니터링으로 개선점 도출",
+        "output_documents": ["모니터링 결과", "개선 과제"],
+        "deadline": null, "blocker": null, "confidence": 0.75,
+        "legal_basis": [{ "law": "전북특별자치도교육청 학생맞춤통합지원 조례", "article": "제6조" }]
+      },
+      {
+        "id": "P10", "name": "기여자 표창 및 차년도 환류", "lane": "교육청(미래교육과)", "stage": "G4 점검·환류",
+        "type": "task", "status": "waiting", "actor": "교육감(미래교육과)",
+        "action": "기여 공무원·단체·개인 표창, 결과를 차년도 기본계획에 반영",
+        "output_documents": ["표창", "차년도 기본계획 반영안"],
+        "deadline": "매년", "blocker": null, "confidence": 0.85,
+        "legal_basis": [{ "law": "전북특별자치도교육청 학생맞춤통합지원 조례", "article": "제9조" }]
+      }
+    ],
+    "edges": [
+      { "id": "E01", "source": "P01", "target": "P02", "type": "sequence" },
+      { "id": "E02", "source": "P02", "target": "P03", "type": "sequence" },
+      { "id": "E03", "source": "P03", "target": "P04", "type": "sequence", "label": "대상 해당" },
+      { "id": "E04", "source": "P04", "target": "P05", "type": "sequence" },
+      { "id": "E05", "source": "P05", "target": "P06", "type": "message" },
+      { "id": "E06", "source": "P05", "target": "P07", "type": "sequence" },
+      { "id": "E07", "source": "P06", "target": "P07", "type": "message" },
+      { "id": "E08", "source": "P08", "target": "P07", "type": "message", "label": "경비 지원" },
+      { "id": "E09", "source": "P07", "target": "P09", "type": "sequence" },
+      { "id": "E10", "source": "P09", "target": "P10", "type": "sequence" },
+      { "id": "E11", "source": "P09", "target": "P04", "type": "loop", "label": "재계획 환류" },
+      { "id": "E12", "source": "P10", "target": "P01", "type": "loop", "label": "차년도 계획 반영" }
+    ],
+    "warnings": [
+      "학생 발견~사례관리(P02~P07) 세부 절차는 상위법 「학생맞춤통합지원법」과 현장 운영에 근거하며 전북 조례 원문에는 세부 규정이 없어 confidence를 낮춤(현장 검증 필요).",
+      "노드 status는 제도 흐름 설명용 편집 표지이며 실제 사건의 처리 상태가 아니다."
+    ]
+  }
+}

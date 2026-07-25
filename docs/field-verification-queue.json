@@ -1,0 +1,56 @@
+{
+  "sourceAsOfDate": "2026-07-24",
+  "total": 4,
+  "institutions": 1,
+  "byDomain": {
+    "실무 관행": 1,
+    "운영 사실": 2,
+    "처리기간": 1
+  },
+  "entries": [
+    {
+      "id": "student-tailored-integrated-support-FV01",
+      "priority": 1,
+      "slug": "student-tailored-integrated-support",
+      "institutionName": "학생맞춤통합지원",
+      "category": "학생지원·안전",
+      "item": "통합지원 대상 판단 기준과 학교 통합지원팀 구성·운영 실무 (국가법령상 절차이며 전북 조례 원문에는 세부 규정 없음)",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "student-tailored-integrated-support-FV02",
+      "priority": 1,
+      "slug": "student-tailored-integrated-support",
+      "institutionName": "학생맞춤통합지원",
+      "category": "학생지원·안전",
+      "item": "통합지원계획 수립 시 학생·보호자 동의 및 개인정보 처리 절차",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "student-tailored-integrated-support-FV03",
+      "priority": 1,
+      "slug": "student-tailored-integrated-support",
+      "institutionName": "학생맞춤통합지원",
+      "category": "학생지원·안전",
+      "item": "지원 실행·사례관리의 실제 담당 부서·기한·서식",
+      "domain": "처리기간",
+      "suggestedEvidence": "처리대장·통계 또는 담당자 인터뷰",
+      "status": "open"
+    },
+    {
+      "id": "student-tailored-integrated-support-FV04",
+      "priority": 1,
+      "slug": "student-tailored-integrated-support",
+      "institutionName": "학생맞춤통합지원",
+      "category": "학생지원·안전",
+      "item": "민·관 협의체의 실제 구성 현황과 개최 주기",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    }
+  ]
+}
