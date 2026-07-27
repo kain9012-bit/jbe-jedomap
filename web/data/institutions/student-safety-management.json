@@ -1,0 +1,396 @@
+{
+  "slug": "student-safety-management",
+  "name": "학생안전 관리 지원",
+  "type": "안전관리형",
+  "priority": 11,
+  "category": "학생지원·안전",
+  "oneLiner": "학생안전 종합계획과 특별위원회 심의, 현장체험학습 안전관리·안전교육·사고 대응으로 교육활동 중 안전을 확보하는 제도",
+  "whyFirst": "현장체험학습 등 교육활동 안전의 상위 틀로, 계획-심의-현장안전-사고대응 흐름이 명확하다.",
+  "asOfDate": "2026-07-24",
+  "status": "full",
+  "canvas": {
+    "purpose": "교육활동 중 발생할 수 있는 위험·사고를 예방해 학생을 보호하고 안전한 교육활동을 지원한다.",
+    "stakeholders": "학생, 학교의 장, 전북특별자치도교육감(학교안전과), 학생안전권 보장 특별위원회, 지자체·안전 유관기관",
+    "legalBasis": [
+      {
+        "law": "초·중등교육법",
+        "kind": "법률",
+        "articles": "제2조"
+      },
+      {
+        "law": "유아교육법",
+        "kind": "법률",
+        "articles": "제2조"
+      },
+      {
+        "law": "평생교육법",
+        "kind": "법률",
+        "articles": "제31조"
+      },
+      {
+        "law": "전북특별자치도교육청 학생안전 관리 지원 조례",
+        "kind": "조례",
+        "articles": "제1조~제15조"
+      }
+    ],
+    "authorities": [
+      {
+        "name": "전북특별자치도교육감(학교안전과)",
+        "role": "종합계획 수립, 매뉴얼 보급, 특별위원회 운영, 협력체계·연수"
+      },
+      {
+        "name": "학교의 장",
+        "role": "현장체험학습 계획·현장답사·보조인력 배치, 안전교육, 사고 대응"
+      },
+      {
+        "name": "학생안전권 보장 특별위원회",
+        "role": "종합계획·안전관리 사항 심의"
+      }
+    ],
+    "procedure": [
+      "교육감이 특별위원회 심의를 거쳐 학생안전 종합계획을 매년 수립·시행한다 (조례 제4조)",
+      "특별위원회가 종합계획 등 학생안전 사항을 심의한다 (조례 제5조)",
+      "교육감이 학생안전 매뉴얼을 작성해 각급학교에 보급한다 (조례 제3조)",
+      "학교가 현장체험학습 기본계획을 세우고 현장답사·안전요원 등 보조인력을 배치한다 (조례 제10조·제10조의2·제11조)",
+      "학교가 교육활동 전 안전교육을 실시한다 (조례 제12조)",
+      "학교안전사고 발생 시 학교장이 즉각 조치·보호자 통보한다 (조례 제12조의2)",
+      "지자체·유관기관과 협력체계를 구축하고 연수 교과목을 편성한다 (조례 제13조·제14조)"
+    ],
+    "moneyFlow": "현장체험학습 보조인력·안전교육·매뉴얼 보급 등에 예산을 사용한다. 위원회 위원에 실비변상 수당·여비를 지급할 수 있다 (조례 제9조).",
+    "docsFlow": "학생안전 종합계획(매년, 위원회 심의) → 안전 매뉴얼 → 현장체험학습 기본계획·현장답사 → 안전교육 → 사고 대응·보호자 통보.",
+    "bottlenecks": [
+      "현장체험학습 안전요원 확보 (현장 검증 필요)",
+      "사고 발생 시 즉각 대응 체계",
+      "위원회 정기 개최(연 2회)의 실효성"
+    ],
+    "reformPoints": [
+      "현장체험학습 안전 표준 절차",
+      "사고 대응 매뉴얼 상시 갱신",
+      "안전 연수 교과목 확대"
+    ]
+  },
+  "related": [
+    "학교폭력 예방·대책",
+    "학생맞춤통합지원",
+    "학생인권"
+  ],
+  "fieldVerification": [
+    "현장체험학습 보조인력·현장답사 실무",
+    "학교안전사고 대응 절차",
+    "특별위원회 구성·개최 현황"
+  ],
+  "process": {
+    "lanes": [
+      "학생",
+      "학교(학교장)",
+      "교육청(학교안전과)",
+      "학생안전권 보장 특별위원회"
+    ],
+    "stages": [
+      "G0 계획",
+      "G1 심의",
+      "G2 현장안전",
+      "G3 사고대응·환류"
+    ],
+    "nodes": [
+      {
+        "id": "P01",
+        "name": "학생안전 종합계획 수립(매년)",
+        "lane": "교육청(학교안전과)",
+        "stage": "G0 계획",
+        "type": "task",
+        "status": "done",
+        "actor": "교육감",
+        "action": "특별위원회 심의를 거쳐 종합계획 매년 수립·시행",
+        "output_documents": [
+          "학생안전 종합계획"
+        ],
+        "deadline": "매년",
+        "blocker": null,
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학생안전 관리 지원 조례",
+            "article": "제4조"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "name": "특별위원회 심의",
+        "lane": "학생안전권 보장 특별위원회",
+        "stage": "G1 심의",
+        "type": "gateway",
+        "status": "waiting",
+        "actor": "특별위원회",
+        "action": "종합계획 등 학생안전 사항 심의(정기 연 2회)",
+        "output_documents": [
+          "심의 결과"
+        ],
+        "deadline": "정기 연 2회",
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학생안전 관리 지원 조례",
+            "article": "제5조"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "name": "학생안전 매뉴얼 보급",
+        "lane": "교육청(학교안전과)",
+        "stage": "G1 심의",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "학생안전 매뉴얼 작성·각급학교 보급",
+        "output_documents": [
+          "안전 매뉴얼"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학생안전 관리 지원 조례",
+            "article": "제3조"
+          }
+        ]
+      },
+      {
+        "id": "P04",
+        "name": "현장체험학습 계획·현장답사·보조인력",
+        "lane": "학교(학교장)",
+        "stage": "G2 현장안전",
+        "type": "task",
+        "status": "current",
+        "actor": "학교의 장",
+        "action": "기본계획 수립, 현장답사, 안전요원 등 보조인력 배치",
+        "output_documents": [
+          "현장체험학습 기본계획",
+          "현장답사 결과"
+        ],
+        "deadline": null,
+        "blocker": "안전요원 확보",
+        "confidence": 0.7,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학생안전 관리 지원 조례",
+            "article": "제10조"
+          }
+        ]
+      },
+      {
+        "id": "P05",
+        "name": "안전교육 실시",
+        "lane": "학교(학교장)",
+        "stage": "G2 현장안전",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교의 장",
+        "action": "교육활동 전 시설·교통·프로그램 안전교육",
+        "output_documents": [
+          "안전교육 기록"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학생안전 관리 지원 조례",
+            "article": "제12조"
+          }
+        ]
+      },
+      {
+        "id": "P06",
+        "name": "학교안전사고 대응·조치",
+        "lane": "학교(학교장)",
+        "stage": "G3 사고대응·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교의 장",
+        "action": "사고 시 즉각 안전조치·보호자 통보·중대사고 보고",
+        "output_documents": [
+          "사고 대응 기록"
+        ],
+        "deadline": "즉시",
+        "blocker": "즉각 대응 체계",
+        "confidence": 0.6,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학생안전 관리 지원 조례",
+            "article": "제12조의2"
+          }
+        ]
+      },
+      {
+        "id": "P07",
+        "name": "협력체계 구축(지자체·유관기관)",
+        "lane": "교육청(학교안전과)",
+        "stage": "G3 사고대응·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "지자체·안전 유관기관과 협력체계 구축",
+        "output_documents": [
+          "협력체계"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.75,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학생안전 관리 지원 조례",
+            "article": "제14조"
+          }
+        ]
+      },
+      {
+        "id": "P08",
+        "name": "안전 연수 교과목·환류",
+        "lane": "교육청(학교안전과)",
+        "stage": "G3 사고대응·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "연수원 과정에 안전 교과목 편성, 결과 환류",
+        "output_documents": [
+          "연수 과정"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학생안전 관리 지원 조례",
+            "article": "제13조"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "P01",
+        "target": "P02",
+        "type": "sequence"
+      },
+      {
+        "id": "E02",
+        "source": "P02",
+        "target": "P03",
+        "type": "sequence"
+      },
+      {
+        "id": "E03",
+        "source": "P03",
+        "target": "P04",
+        "type": "sequence"
+      },
+      {
+        "id": "E04",
+        "source": "P04",
+        "target": "P05",
+        "type": "sequence"
+      },
+      {
+        "id": "E05",
+        "source": "P05",
+        "target": "P06",
+        "type": "sequence"
+      },
+      {
+        "id": "E06",
+        "source": "P06",
+        "target": "P07",
+        "type": "sequence"
+      },
+      {
+        "id": "E07",
+        "source": "P07",
+        "target": "P08",
+        "type": "sequence"
+      },
+      {
+        "id": "E08",
+        "source": "P08",
+        "target": "P01",
+        "type": "loop",
+        "label": "차기 종합계획 환류"
+      }
+    ],
+    "warnings": [
+      "현장 안전·사고 대응(P04·P06)의 실효성은 인력·현장 여건에 좌우되어 confidence를 낮춤(현장 검증 필요)."
+    ]
+  },
+  "verification": {
+    "status": "article-verified",
+    "verifiedAt": "2026-07-24",
+    "method": "국가법령정보센터 OpenAPI로 자치법규 원문(전북특별자치도교육청 학생안전 관리 지원 조례)과 상위 국가법령을 대조. 캔버스·절차 노드 명시 조문 존재를 모두 확인.",
+    "scope": "전북 조례 조문과 인용 국가법령 조문의 존재를 OpenAPI 응답으로 확인했다. 노드 상태·확신도는 편집 표지이며, 조문의 법적 해석·사건별 적용은 별도 검토 대상이다.",
+    "notes": [
+      "조례 소관: 전북특별자치도교육청 학교안전과",
+      "자치법규는 ordinance 소스, 상위 국가법령은 statute 소스로 연계"
+    ],
+    "sources": [
+      {
+        "law": "전북특별자치도교육청 학생안전 관리 지원 조례",
+        "kind": "조례",
+        "sourceType": "ordinance",
+        "officialName": "전북특별자치도교육청 학생안전 관리 지원 조례",
+        "ordinanceId": "2083481",
+        "mst": "2083481",
+        "promulgatedOn": "2025-11-14",
+        "effectiveOn": "2025-11-14",
+        "officialUrl": "https://law.go.kr/자치법규/전북특별자치도교육청학생안전관리지원조례"
+      },
+      {
+        "law": "초·중등교육법",
+        "kind": "법률",
+        "sourceType": "statute",
+        "officialName": "초·중등교육법",
+        "lawId": "000900",
+        "mst": "279605",
+        "promulgatedOn": "2025-11-11",
+        "effectiveOn": "2026-03-01",
+        "officialUrl": "https://law.go.kr/법령/초·중등교육법"
+      },
+      {
+        "law": "유아교육법",
+        "kind": "법률",
+        "sourceType": "statute",
+        "officialName": "유아교육법",
+        "lawId": "009621",
+        "mst": "286061",
+        "promulgatedOn": "2026-05-19",
+        "effectiveOn": "2026-05-19",
+        "officialUrl": "https://law.go.kr/법령/유아교육법"
+      },
+      {
+        "law": "평생교육법",
+        "kind": "법률",
+        "sourceType": "statute",
+        "officialName": "평생교육법",
+        "lawId": "000851",
+        "mst": "279615",
+        "promulgatedOn": "2025-11-11",
+        "effectiveOn": "2026-05-12",
+        "officialUrl": "https://law.go.kr/법령/평생교육법"
+      }
+    ],
+    "unresolved": [],
+    "articleVerification": {
+      "checkedAt": "2026-07-24",
+      "method": "OpenAPI(target=ordin/law) 응답의 조문 목록과 인용 조문 번호를 대조.",
+      "citationEntries": 12,
+      "explicitCitationEntries": 12,
+      "articleReferences": 13,
+      "verifiedReferences": 13,
+      "missingReferences": 0,
+      "uncheckableReferences": 0
+    }
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "slug": "suicide-prevention-life-respect",
+  "name": "자살예방·생명존중",
+  "type": "예방·지원형",
+  "priority": 12,
+  "category": "학생지원·안전",
+  "oneLiner": "학생 자살예방 교육과 생명존중문화 조성, 고위험 위기학생 사후지원과 관계기관 치료 연계로 학생 생명을 보호하는 제도",
+  "whyFirst": "위기학생 지원·정서행동 지원과 연결되는 생명안전의 핵심으로, 교육-역량-사후지원-연계 흐름이 뚜렷하다.",
+  "asOfDate": "2026-07-24",
+  "status": "full",
+  "canvas": {
+    "purpose": "자살위험이 있는 학생을 지원하는 체계를 마련하고 자살예방 정책을 수립·시행해 학생의 생명을 보호하고 건전한 성장을 보장한다.",
+    "stakeholders": "학생, 학교의 장·자살예방 담당교사, 전북특별자치도교육감(민주시민교육과), 자문위원회, 전북특별자치도·자살예방 전문기관",
+    "legalBasis": [
+      {
+        "law": "초·중등교육법",
+        "kind": "법률",
+        "articles": "제2조"
+      },
+      {
+        "law": "전북특별자치도교육청 자살예방 및 생명존중문화 조성을 위한 조례",
+        "kind": "조례",
+        "articles": "제1조~제11조"
+      }
+    ],
+    "authorities": [
+      {
+        "name": "전북특별자치도교육감(민주시민교육과)",
+        "role": "시행계획·실태조사, 자문위원회·연수, 사후지원, 관계기관 연계"
+      },
+      {
+        "name": "학교의 장·담당교사",
+        "role": "자살예방 교육 편성·운영, 교직원 연수, 위기학생 관리"
+      },
+      {
+        "name": "자문위원회·전문기관",
+        "role": "정책 자문, 치료체계 연계"
+      }
+    ],
+    "procedure": [
+      "교육감이 매년 자살예방 교육·생명존중문화 조성 시행계획을 수립·시행한다 (조례 제4조)",
+      "자문위원회가 시행계획 등에 자문한다 (조례 제5조)",
+      "학교가 자살예방 교육을 학교교육과정으로 편성·운영한다 (조례 제3조)",
+      "학교장·교직원 대상 자살예방 역량강화 연수를 실시한다 (조례 제7조)",
+      "고위험 위기학생에게 지속적 심리상담 등 사후지원을 한다 (조례 제8조)",
+      "전북특별자치도·자살예방 전문기관과 치료체계를 연계한다 (조례 제9조)",
+      "교육감이 추진·개선을 위한 실태조사를 실시한다 (조례 제6조)"
+    ],
+    "moneyFlow": "자살예방 교육·연수·사후지원 심리상담 프로그램과 실태조사에 예산을 사용한다.",
+    "docsFlow": "시행계획(매년) → 자문위원회 자문 → 자살예방 교육·역량강화 연수 → 고위험 학생 사후지원 → 관계기관 치료 연계. 담당자는 직무상 비밀을 준수한다 (조례 제10조).",
+    "bottlenecks": [
+      "고위험 학생 조기 발견·개입 (현장 검증 필요)",
+      "민감정보·비밀준수와 정보공유 균형",
+      "전문기관 치료 연계 대기"
+    ],
+    "reformPoints": [
+      "정서행동위기학생·학생맞춤통합지원과 사례 연계",
+      "교직원 위기대응 역량 상시 연수",
+      "지역 치료체계 상시 연계"
+    ]
+  },
+  "related": [
+    "정서행동위기학생 지원",
+    "학생맞춤통합지원",
+    "학교폭력 예방·대책"
+  ],
+  "fieldVerification": [
+    "고위험 학생 발견·개입 실무",
+    "사후지원 프로그램 운영",
+    "관계기관 치료 연계 절차"
+  ],
+  "process": {
+    "lanes": [
+      "학생",
+      "학교(학교장·담당교사)",
+      "교육청(민주시민교육과)",
+      "자문위원회·전문기관"
+    ],
+    "stages": [
+      "G0 계획",
+      "G1 교육·역량",
+      "G2 위기대응",
+      "G3 협력·환류"
+    ],
+    "nodes": [
+      {
+        "id": "P01",
+        "name": "시행계획 수립(매년)",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G0 계획",
+        "type": "task",
+        "status": "done",
+        "actor": "교육감",
+        "action": "자살예방 교육·생명존중문화 조성 시행계획 매년 수립·시행",
+        "output_documents": [
+          "시행계획"
+        ],
+        "deadline": "매년",
+        "blocker": null,
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 자살예방 및 생명존중문화 조성을 위한 조례",
+            "article": "제4조"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "name": "자문위원회 자문",
+        "lane": "자문위원회·전문기관",
+        "stage": "G0 계획",
+        "type": "task",
+        "status": "waiting",
+        "actor": "자문위원회",
+        "action": "시행계획 등에 자문",
+        "output_documents": [
+          "자문 의견"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.75,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 자살예방 및 생명존중문화 조성을 위한 조례",
+            "article": "제5조"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "name": "자살예방 교육 편성·운영",
+        "lane": "학교(학교장·담당교사)",
+        "stage": "G1 교육·역량",
+        "type": "task",
+        "status": "current",
+        "actor": "학교의 장",
+        "action": "자살예방 교육을 학교교육과정으로 편성·운영",
+        "output_documents": [
+          "교육 운영 기록"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 자살예방 및 생명존중문화 조성을 위한 조례",
+            "article": "제3조"
+          }
+        ]
+      },
+      {
+        "id": "P04",
+        "name": "교직원 역량강화 연수",
+        "lane": "학교(학교장·담당교사)",
+        "stage": "G1 교육·역량",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감·학교장",
+        "action": "학교장·교직원 대상 자살예방 관리 역량강화 연수",
+        "output_documents": [
+          "연수 기록"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 자살예방 및 생명존중문화 조성을 위한 조례",
+            "article": "제7조"
+          }
+        ]
+      },
+      {
+        "id": "P05",
+        "name": "고위험 위기학생 사후지원",
+        "lane": "학교(학교장·담당교사)",
+        "stage": "G2 위기대응",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감·학교",
+        "action": "자해·자살시도 고위험 학생 지속 심리상담 등 관리",
+        "output_documents": [
+          "사후지원 기록"
+        ],
+        "deadline": null,
+        "blocker": "조기 발견·개입",
+        "confidence": 0.55,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 자살예방 및 생명존중문화 조성을 위한 조례",
+            "article": "제8조"
+          }
+        ]
+      },
+      {
+        "id": "P06",
+        "name": "관계기관 치료체계 연계",
+        "lane": "자문위원회·전문기관",
+        "stage": "G2 위기대응",
+        "type": "task",
+        "status": "waiting",
+        "actor": "전문기관",
+        "action": "전북특별자치도·자살예방 전문기관과 치료체계 연계",
+        "output_documents": [
+          "연계 기록"
+        ],
+        "deadline": null,
+        "blocker": "치료 연계 대기",
+        "confidence": 0.6,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 자살예방 및 생명존중문화 조성을 위한 조례",
+            "article": "제9조"
+          }
+        ]
+      },
+      {
+        "id": "P07",
+        "name": "실태조사",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G3 협력·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "추진·개선을 위한 실태조사(전문기관 의뢰 가능)",
+        "output_documents": [
+          "실태조사 결과"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.75,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 자살예방 및 생명존중문화 조성을 위한 조례",
+            "article": "제6조"
+          }
+        ]
+      },
+      {
+        "id": "P08",
+        "name": "비밀준수·환류",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G3 협력·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감·담당자",
+        "action": "직무상 비밀 준수, 결과를 차기 시행계획에 환류",
+        "output_documents": [
+          "차기 계획 반영안"
+        ],
+        "deadline": null,
+        "blocker": "비밀-정보공유 균형",
+        "confidence": 0.7,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 자살예방 및 생명존중문화 조성을 위한 조례",
+            "article": "제10조"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "P01",
+        "target": "P02",
+        "type": "sequence"
+      },
+      {
+        "id": "E02",
+        "source": "P02",
+        "target": "P03",
+        "type": "sequence"
+      },
+      {
+        "id": "E03",
+        "source": "P03",
+        "target": "P04",
+        "type": "sequence"
+      },
+      {
+        "id": "E04",
+        "source": "P04",
+        "target": "P05",
+        "type": "sequence"
+      },
+      {
+        "id": "E05",
+        "source": "P05",
+        "target": "P06",
+        "type": "message"
+      },
+      {
+        "id": "E06",
+        "source": "P06",
+        "target": "P07",
+        "type": "sequence"
+      },
+      {
+        "id": "E07",
+        "source": "P07",
+        "target": "P08",
+        "type": "sequence"
+      },
+      {
+        "id": "E08",
+        "source": "P08",
+        "target": "P01",
+        "type": "loop",
+        "label": "차기계획 환류"
+      }
+    ],
+    "warnings": [
+      "고위험 학생 사후지원(P05)의 조기 발견·개입은 현장 판단과 민감정보 처리에 좌우되어 confidence를 낮춤(현장 검증 필요)."
+    ]
+  },
+  "verification": {
+    "status": "article-verified",
+    "verifiedAt": "2026-07-24",
+    "method": "국가법령정보센터 OpenAPI로 자치법규 원문(전북특별자치도교육청 자살예방 및 생명존중문화 조성을 위한 조례)과 상위 국가법령을 대조. 캔버스·절차 노드 명시 조문 존재를 모두 확인.",
+    "scope": "전북 조례 조문과 인용 국가법령 조문의 존재를 OpenAPI 응답으로 확인했다. 노드 상태·확신도는 편집 표지이며, 조문의 법적 해석·사건별 적용은 별도 검토 대상이다.",
+    "notes": [
+      "조례 소관: 전북특별자치도교육청 민주시민교육과",
+      "자치법규는 ordinance 소스, 상위 국가법령은 statute 소스로 연계"
+    ],
+    "sources": [
+      {
+        "law": "전북특별자치도교육청 자살예방 및 생명존중문화 조성을 위한 조례",
+        "kind": "조례",
+        "sourceType": "ordinance",
+        "officialName": "전북특별자치도교육청 자살예방 및 생명존중문화 조성을 위한 조례",
+        "ordinanceId": "1870507",
+        "mst": "1870507",
+        "promulgatedOn": "2023-11-10",
+        "effectiveOn": "2024-01-18",
+        "officialUrl": "https://law.go.kr/자치법규/전북특별자치도교육청자살예방및생명존중문화조성을위한조례"
+      },
+      {
+        "law": "초·중등교육법",
+        "kind": "법률",
+        "sourceType": "statute",
+        "officialName": "초·중등교육법",
+        "lawId": "000900",
+        "mst": "279605",
+        "promulgatedOn": "2025-11-11",
+        "effectiveOn": "2026-03-01",
+        "officialUrl": "https://law.go.kr/법령/초·중등교육법"
+      }
+    ],
+    "unresolved": [],
+    "articleVerification": {
+      "checkedAt": "2026-07-24",
+      "method": "OpenAPI(target=ordin/law) 응답의 조문 목록과 인용 조문 번호를 대조.",
+      "citationEntries": 10,
+      "explicitCitationEntries": 10,
+      "articleReferences": 11,
+      "verifiedReferences": 11,
+      "missingReferences": 0,
+      "uncheckableReferences": 0
+    }
+  }
+}

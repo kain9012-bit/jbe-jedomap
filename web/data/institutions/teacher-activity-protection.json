@@ -1,0 +1,395 @@
+{
+  "slug": "teacher-activity-protection",
+  "name": "교권·교육활동 보호",
+  "type": "보호·구제형",
+  "priority": 8,
+  "category": "학생지원·안전",
+  "oneLiner": "교원의 교육활동 침해를 예방·대응하고 교육활동보호센터 치유지원과 교권보호위원회 심의·조치로 교권을 회복하는 제도",
+  "whyFirst": "교원지위법과 전북 조례가 예방-대응-치유-심의 체계를 규정해 교권 보호의 기준 사례다.",
+  "asOfDate": "2026-07-24",
+  "status": "full",
+  "canvas": {
+    "purpose": "교원의 교육활동을 보호하고 교육주체 간 존중·신뢰 기반을 구축해 교육의 질을 높인다. 침해 발생 시 피해교원을 신속히 보호·치유한다.",
+    "stakeholders": "교원, 학교의 장, 전북특별자치도교육감(전북교육인권센터·교육활동보호센터), 교권보호위원회, 침해 학생·보호자",
+    "legalBasis": [
+      {
+        "law": "교원의 지위 향상 및 교육활동 보호를 위한 특별법",
+        "kind": "법률"
+      },
+      {
+        "law": "초·중등교육법",
+        "kind": "법률",
+        "articles": "제19조"
+      },
+      {
+        "law": "유아교육법",
+        "kind": "법률",
+        "articles": "제20조"
+      },
+      {
+        "law": "전북특별자치도교육청 교권침해로부터 안전한 교육활동 보호 조례",
+        "kind": "조례",
+        "articles": "제1조~제28조"
+      }
+    ],
+    "authorities": [
+      {
+        "name": "전북특별자치도교육감(전북교육인권센터)",
+        "role": "교권보호정책·침해실태조사, 교육활동보호센터 설치·운영, 예방교육"
+      },
+      {
+        "name": "학교의 장",
+        "role": "침해 발생 시 즉시 피해교원 보호·분리 조치, 교육장 보고"
+      },
+      {
+        "name": "전북특별자치도교권보호위원회",
+        "role": "침해·분쟁 심의·조정 및 조치 권고"
+      }
+    ],
+    "procedure": [
+      "교육감이 교권보호정책을 마련하고 침해실태를 정기 조사한다 (조례 제9조)",
+      "교직원·학생·보호자 대상 침해 예방교육을 매년 1회 이상 실시한다 (조례 제15조)",
+      "행정업무를 경감해 교원이 교육활동에 전념하도록 여건을 조성한다 (조례 제8조)",
+      "침해 발생 시 학교장이 즉시 피해교원을 보호·분리하고 교육장에 보고한다 (조례 제9조의2)",
+      "교육활동보호센터가 심리상담·치료 등 치유를 지원한다 (조례 제12조·제14조)",
+      "교원 민원·진정 조사 시 소명 기회를 보장한다 (조례 제11조)",
+      "교권보호위원회가 침해·분쟁을 심의·조정하고 조치를 권고한다 (조례 제16조~제18조)"
+    ],
+    "moneyFlow": "교육활동보호센터 운영·치유지원 및 예방교육에 예산을 지원한다. 위원회 위원에 실비변상 수당·여비를 지급할 수 있다.",
+    "docsFlow": "교권보호정책·침해실태조사 → 예방교육 기록 → 침해 발생 보고·보호조치 → 교육활동보호센터 치유지원 → 교권보호위원회 심의·조치 권고.",
+    "bottlenecks": [
+      "침해 발생 시 즉시 분리·보호의 현장 실행 (현장 검증 필요)",
+      "민원·진정 조사 중 교원 보호와 신속성 균형",
+      "지역-도 교권보호위원회 이원 구조의 연계"
+    ],
+    "reformPoints": [
+      "교육활동보호센터 치유 프로그램 확대",
+      "침해 유형별 표준 대응 매뉴얼",
+      "행정업무 경감의 실질화"
+    ]
+  },
+  "related": [
+    "학생인권",
+    "학교폭력 예방·대책",
+    "학생맞춤통합지원"
+  ],
+  "fieldVerification": [
+    "침해 발생 시 실제 분리·보호 절차",
+    "교육활동보호센터 운영·이용 현황",
+    "위원회 심의·조정 사례"
+  ],
+  "process": {
+    "lanes": [
+      "교원",
+      "학교(학교장)",
+      "교육청(교육활동보호센터)",
+      "교권보호위원회"
+    ],
+    "stages": [
+      "G0 예방",
+      "G1 침해대응",
+      "G2 보호·치유",
+      "G3 심의·환류"
+    ],
+    "nodes": [
+      {
+        "id": "P01",
+        "name": "교권보호정책·침해실태조사",
+        "lane": "교육청(교육활동보호센터)",
+        "stage": "G0 예방",
+        "type": "task",
+        "status": "done",
+        "actor": "교육감",
+        "action": "교권보호정책 마련, 침해실태 정기 조사",
+        "output_documents": [
+          "교권보호정책",
+          "실태조사"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 교권침해로부터 안전한 교육활동 보호 조례",
+            "article": "제9조"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "name": "침해 예방교육(연 1회 이상)",
+        "lane": "교육청(교육활동보호센터)",
+        "stage": "G0 예방",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "교직원·학생·보호자 대상 예방교육",
+        "output_documents": [
+          "예방교육 기록"
+        ],
+        "deadline": "연 1회 이상",
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 교권침해로부터 안전한 교육활동 보호 조례",
+            "article": "제15조"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "name": "행정업무 경감 여건 조성",
+        "lane": "교육청(교육활동보호센터)",
+        "stage": "G0 예방",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감·학교장",
+        "action": "교원이 교육활동에 전념하도록 행정업무 경감",
+        "output_documents": [],
+        "deadline": null,
+        "blocker": "실질화",
+        "confidence": 0.6,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 교권침해로부터 안전한 교육활동 보호 조례",
+            "article": "제8조"
+          }
+        ]
+      },
+      {
+        "id": "P04",
+        "name": "침해 발생 시 즉시 보호·분리",
+        "lane": "학교(학교장)",
+        "stage": "G1 침해대응",
+        "type": "task",
+        "status": "current",
+        "actor": "학교의 장",
+        "action": "피해교원 즉시 보호조치·침해대상 분리, 교육장 보고",
+        "output_documents": [
+          "보호조치",
+          "교육장 보고"
+        ],
+        "deadline": "즉시",
+        "blocker": "현장 실행",
+        "confidence": 0.6,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 교권침해로부터 안전한 교육활동 보호 조례",
+            "article": "제9조의2"
+          }
+        ]
+      },
+      {
+        "id": "P05",
+        "name": "교육활동보호센터 치유지원",
+        "lane": "교육청(교육활동보호센터)",
+        "stage": "G2 보호·치유",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육활동보호센터",
+        "action": "피해교원 심리상담·치료 등 치유 지원",
+        "output_documents": [
+          "치유지원 기록"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.75,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 교권침해로부터 안전한 교육활동 보호 조례",
+            "article": "제14조"
+          }
+        ]
+      },
+      {
+        "id": "P06",
+        "name": "민원·진정 조사 시 소명 기회",
+        "lane": "교육청(교육활동보호센터)",
+        "stage": "G2 보호·치유",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "교원 민원·진정 조사 시 소명 기회 보장, 결과 전 불이익 금지",
+        "output_documents": [
+          "조사 기록"
+        ],
+        "deadline": null,
+        "blocker": "보호-신속성 균형",
+        "confidence": 0.6,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 교권침해로부터 안전한 교육활동 보호 조례",
+            "article": "제11조"
+          }
+        ]
+      },
+      {
+        "id": "P07",
+        "name": "교권보호위원회 심의·조치 권고",
+        "lane": "교권보호위원회",
+        "stage": "G3 심의·환류",
+        "type": "gateway",
+        "status": "waiting",
+        "actor": "교권보호위원회",
+        "action": "침해·분쟁 심의·조정, 조치 권고",
+        "output_documents": [
+          "심의 결과",
+          "조치 권고"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 교권침해로부터 안전한 교육활동 보호 조례",
+            "article": "제17조"
+          }
+        ]
+      },
+      {
+        "id": "P08",
+        "name": "결과 환류·정책 반영",
+        "lane": "교육청(교육활동보호센터)",
+        "stage": "G3 심의·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "심의·치유 결과를 교권보호정책에 반영",
+        "output_documents": [
+          "정책 반영안"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.75
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "P01",
+        "target": "P02",
+        "type": "sequence"
+      },
+      {
+        "id": "E02",
+        "source": "P02",
+        "target": "P03",
+        "type": "sequence"
+      },
+      {
+        "id": "E03",
+        "source": "P03",
+        "target": "P04",
+        "type": "sequence"
+      },
+      {
+        "id": "E04",
+        "source": "P04",
+        "target": "P05",
+        "type": "sequence"
+      },
+      {
+        "id": "E05",
+        "source": "P04",
+        "target": "P06",
+        "type": "sequence"
+      },
+      {
+        "id": "E06",
+        "source": "P05",
+        "target": "P07",
+        "type": "sequence"
+      },
+      {
+        "id": "E07",
+        "source": "P06",
+        "target": "P07",
+        "type": "message"
+      },
+      {
+        "id": "E08",
+        "source": "P07",
+        "target": "P08",
+        "type": "sequence"
+      },
+      {
+        "id": "E09",
+        "source": "P08",
+        "target": "P01",
+        "type": "loop",
+        "label": "정책 환류"
+      }
+    ],
+    "warnings": [
+      "침해 대응(P04·P06) 세부는 상위법 「교원지위법」과 현장 운영에 근거해 confidence를 낮춤(현장 검증 필요)."
+    ]
+  },
+  "verification": {
+    "status": "article-verified",
+    "verifiedAt": "2026-07-24",
+    "method": "국가법령정보센터 OpenAPI로 자치법규 원문(전북특별자치도교육청 교권침해로부터 안전한 교육활동 보호 조례)과 상위 국가법령을 대조. 캔버스·절차 노드 명시 조문 존재를 모두 확인.",
+    "scope": "전북 조례 조문과 인용 국가법령 조문의 존재를 OpenAPI 응답으로 확인했다. 노드 상태·확신도는 편집 표지이며, 조문의 법적 해석·사건별 적용은 별도 검토 대상이다.",
+    "notes": [
+      "조례 소관: 전북특별자치도교육청 전북교육인권센터",
+      "자치법규는 ordinance 소스, 상위 국가법령은 statute 소스로 연계"
+    ],
+    "sources": [
+      {
+        "law": "전북특별자치도교육청 교권침해로부터 안전한 교육활동 보호 조례",
+        "kind": "조례",
+        "sourceType": "ordinance",
+        "officialName": "전북특별자치도교육청 교권침해로부터 안전한 교육활동 보호 조례",
+        "ordinanceId": "1907017",
+        "mst": "1907017",
+        "promulgatedOn": "2024-02-16",
+        "effectiveOn": "2024-02-16",
+        "officialUrl": "https://law.go.kr/자치법규/전북특별자치도교육청교권침해로부터안전한교육활동보호조례"
+      },
+      {
+        "law": "교원의 지위 향상 및 교육활동 보호를 위한 특별법",
+        "kind": "법률",
+        "sourceType": "statute",
+        "officialName": "교원의 지위 향상 및 교육활동 보호를 위한 특별법",
+        "lawId": "000886",
+        "mst": "283357",
+        "promulgatedOn": "2026-02-19",
+        "effectiveOn": "2026-02-19",
+        "officialUrl": "https://law.go.kr/법령/교원의지위향상및교육활동보호를위한특별법"
+      },
+      {
+        "law": "초·중등교육법",
+        "kind": "법률",
+        "sourceType": "statute",
+        "officialName": "초·중등교육법",
+        "lawId": "000900",
+        "mst": "279605",
+        "promulgatedOn": "2025-11-11",
+        "effectiveOn": "2026-03-01",
+        "officialUrl": "https://law.go.kr/법령/초·중등교육법"
+      },
+      {
+        "law": "유아교육법",
+        "kind": "법률",
+        "sourceType": "statute",
+        "officialName": "유아교육법",
+        "lawId": "009621",
+        "mst": "286061",
+        "promulgatedOn": "2026-05-19",
+        "effectiveOn": "2026-05-19",
+        "officialUrl": "https://law.go.kr/법령/유아교육법"
+      }
+    ],
+    "unresolved": [],
+    "articleVerification": {
+      "checkedAt": "2026-07-24",
+      "method": "OpenAPI(target=ordin/law) 응답의 조문 목록과 인용 조문 번호를 대조.",
+      "citationEntries": 10,
+      "explicitCitationEntries": 10,
+      "articleReferences": 11,
+      "verifiedReferences": 11,
+      "missingReferences": 0,
+      "uncheckableReferences": 0
+    }
+  }
+}

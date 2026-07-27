@@ -1,0 +1,371 @@
+{
+  "slug": "school-violence-prevention",
+  "name": "학교폭력 예방·대책",
+  "type": "예방·대응형",
+  "priority": 7,
+  "category": "학생지원·안전",
+  "oneLiner": "학교폭력 예방교육·실태조사·상담과 사안 발생 시 학교장 조치, 피해학생 보호·가해학생 선도, 예방지원센터 통합지원을 규정한 제도",
+  "whyFirst": "학교폭력예방법과 전북 조례가 예방·대응·지원 전 과정을 규정해 학생안전 계열의 핵심이다.",
+  "asOfDate": "2026-07-24",
+  "status": "full",
+  "canvas": {
+    "purpose": "학교폭력의 예방·대책을 마련해 건전한 학교문화를 조성하고, 피해학생 보호·치유와 가해학생 선도·교육으로 학생을 건강한 사회구성원으로 육성한다.",
+    "stakeholders": "피해·가해 학생과 보호자, 학교의 장·교원, 전북특별자치도교육감(민주시민교육과), 학교폭력예방지원센터, 지자체·경찰 등 관계기관과 청소년 민간단체",
+    "legalBasis": [
+      {
+        "law": "학교폭력예방 및 대책에 관한 법률",
+        "kind": "법률",
+        "articles": "제2조"
+      },
+      {
+        "law": "전북특별자치도교육청 학교폭력예방 및 대책에 관한 조례",
+        "kind": "조례",
+        "articles": "제1조~제18조"
+      }
+    ],
+    "authorities": [
+      {
+        "name": "전북특별자치도교육감(민주시민교육과)",
+        "role": "추진계획 수립, 실태조사, 예방지원센터·협력체계 운영, 표창"
+      },
+      {
+        "name": "학교의 장",
+        "role": "사안 발생 시 조치, 예방교육·상담실 운영, 학습권 보장"
+      },
+      {
+        "name": "학교폭력예방지원센터",
+        "role": "조사·상담·관계개선 조정·치유·법률지원 통합지원"
+      }
+    ],
+    "procedure": [
+      "교육감이 예방교육·조사연구·피해보호 등을 담은 추진계획을 수립·시행한다 (조례 제6조)",
+      "학교가 학생·교직원·학부모 대상 예방교육을 학기별 1회 이상 실시한다 (조례 제8조)",
+      "학교가 상담실과 사이버상담실을 설치·운영한다 (조례 제9조)",
+      "교육감이 학기별 1회 이상 실태조사를 실시·공표한다 (조례 제10조)",
+      "학교폭력 발생 시 학교장이 지체 없이 피해·가해학생 조치를 한다 (조례 제4조)",
+      "피해학생 보호·가해학생 선도와 학습권·인권을 보장한다 (조례 제11조)",
+      "예방지원센터가 조사·상담·관계개선 조정·치유·법률지원을 통합 제공한다 (조례 제13조)",
+      "지자체·경찰 등과 협력체계를 구축하고 기여자를 표창한다 (조례 제14조·제17조)"
+    ],
+    "moneyFlow": "학교장은 예산의 범위에서 학교폭력예방·대책 경비를 편성한다 (조례 제4조). 교육감은 예방지원센터 운영·연구 위탁 등을 지원한다.",
+    "docsFlow": "추진계획 → 예방교육·상담 기록 → 학기별 실태조사 결과(공표) → 사안 조치 기록 → 예방지원센터 통합지원 기록.",
+    "bottlenecks": [
+      "사안 처리 과정의 학생 인권·학습권 보장 (현장 검증 필요)",
+      "관계개선 조정의 실효성 (현장 검증 필요)",
+      "센터·학교·관계기관 연계 속도"
+    ],
+    "reformPoints": [
+      "예방지원센터 통합지원 표준화",
+      "실태조사 결과의 예방정책 환류",
+      "관계개선 조정 전문성 강화"
+    ]
+  },
+  "related": [
+    "학생맞춤통합지원",
+    "위기학생 심리 치유 지원",
+    "자살예방·생명존중"
+  ],
+  "fieldVerification": [
+    "사안처리 실제 절차·기한(법령 위임)",
+    "상담실·사이버상담실 운영 실무",
+    "예방지원센터 통합지원 운영 현황"
+  ],
+  "process": {
+    "lanes": [
+      "학생·보호자",
+      "학교(학교장)",
+      "교육청(민주시민교육과)",
+      "예방지원센터·관계기관"
+    ],
+    "stages": [
+      "G0 계획",
+      "G1 예방",
+      "G2 사안대응",
+      "G3 지원·환류"
+    ],
+    "nodes": [
+      {
+        "id": "P01",
+        "name": "학교폭력 예방·대책 추진계획 수립",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G0 계획",
+        "type": "task",
+        "status": "done",
+        "actor": "교육감",
+        "action": "예방교육·조사연구·피해보호를 담은 추진계획 수립·시행",
+        "output_documents": [
+          "추진계획"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교폭력예방 및 대책에 관한 조례",
+            "article": "제6조"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "name": "예방교육(학기별 1회)",
+        "lane": "학교(학교장)",
+        "stage": "G1 예방",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교의 장",
+        "action": "학생·교직원·학부모 대상 학교폭력 예방교육",
+        "output_documents": [
+          "예방교육 기록"
+        ],
+        "deadline": "학기별 1회 이상",
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교폭력예방 및 대책에 관한 조례",
+            "article": "제8조"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "name": "상담실·사이버상담실 운영",
+        "lane": "학교(학교장)",
+        "stage": "G1 예방",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교의 장",
+        "action": "상담실 및 홈페이지 사이버상담실 설치·운영",
+        "output_documents": [
+          "상담 운영"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교폭력예방 및 대책에 관한 조례",
+            "article": "제9조"
+          }
+        ]
+      },
+      {
+        "id": "P04",
+        "name": "학교폭력 실태조사(학기별 1회)",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G1 예방",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "학기별 1회 이상 실태조사 실시·공표",
+        "output_documents": [
+          "실태조사 결과"
+        ],
+        "deadline": "학기별 1회 이상",
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교폭력예방 및 대책에 관한 조례",
+            "article": "제10조"
+          }
+        ]
+      },
+      {
+        "id": "P05",
+        "name": "학교폭력 발생 시 학교장 조치",
+        "lane": "학교(학교장)",
+        "stage": "G2 사안대응",
+        "type": "task",
+        "status": "current",
+        "actor": "학교의 장",
+        "action": "지체 없이 피해·가해학생에 대한 적절한 조치",
+        "output_documents": [
+          "조치 기록"
+        ],
+        "deadline": "지체 없이",
+        "blocker": "사안처리 세부는 법령 위임",
+        "confidence": 0.6,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교폭력예방 및 대책에 관한 조례",
+            "article": "제4조"
+          }
+        ]
+      },
+      {
+        "id": "P06",
+        "name": "피해 보호·가해 선도, 학습권 보장",
+        "lane": "학교(학교장)",
+        "stage": "G2 사안대응",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교의 장",
+        "action": "피해학생 보호·치유, 가해학생 선도, 학습권·인권 보장",
+        "output_documents": [
+          "보호·선도 기록"
+        ],
+        "deadline": null,
+        "blocker": "인권·학습권 보장",
+        "confidence": 0.6,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교폭력예방 및 대책에 관한 조례",
+            "article": "제11조"
+          }
+        ]
+      },
+      {
+        "id": "P07",
+        "name": "예방지원센터 통합지원",
+        "lane": "예방지원센터·관계기관",
+        "stage": "G3 지원·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교폭력예방지원센터",
+        "action": "조사·상담·관계개선 조정·치유·법률지원 통합 제공",
+        "output_documents": [
+          "통합지원 기록"
+        ],
+        "deadline": null,
+        "blocker": "연계 속도",
+        "confidence": 0.7,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교폭력예방 및 대책에 관한 조례",
+            "article": "제13조"
+          }
+        ]
+      },
+      {
+        "id": "P08",
+        "name": "관계기관 협력·표창·환류",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G3 지원·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "지자체·경찰 등 협력체계 구축, 기여자 표창, 결과 환류",
+        "output_documents": [
+          "협력체계",
+          "표창"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 학교폭력예방 및 대책에 관한 조례",
+            "article": "제14조"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "P01",
+        "target": "P02",
+        "type": "sequence"
+      },
+      {
+        "id": "E02",
+        "source": "P01",
+        "target": "P04",
+        "type": "sequence"
+      },
+      {
+        "id": "E03",
+        "source": "P02",
+        "target": "P03",
+        "type": "sequence"
+      },
+      {
+        "id": "E04",
+        "source": "P03",
+        "target": "P05",
+        "type": "sequence"
+      },
+      {
+        "id": "E05",
+        "source": "P04",
+        "target": "P05",
+        "type": "message"
+      },
+      {
+        "id": "E06",
+        "source": "P05",
+        "target": "P06",
+        "type": "sequence"
+      },
+      {
+        "id": "E07",
+        "source": "P06",
+        "target": "P07",
+        "type": "sequence"
+      },
+      {
+        "id": "E08",
+        "source": "P07",
+        "target": "P08",
+        "type": "sequence"
+      },
+      {
+        "id": "E09",
+        "source": "P08",
+        "target": "P01",
+        "type": "loop",
+        "label": "차기계획 환류"
+      }
+    ],
+    "warnings": [
+      "사안처리(P05·P06) 세부 절차·기한은 상위법 「학교폭력예방 및 대책에 관한 법률」과 현장 운영에 근거해 confidence를 낮춤(현장 검증 필요)."
+    ]
+  },
+  "verification": {
+    "status": "article-verified",
+    "verifiedAt": "2026-07-24",
+    "method": "국가법령정보센터 OpenAPI로 자치법규 원문(전북특별자치도교육청 학교폭력예방 및 대책에 관한 조례)과 상위 국가법령을 대조. 캔버스·절차 노드 명시 조문 존재를 모두 확인.",
+    "scope": "전북 조례 조문과 인용 국가법령 조문의 존재를 OpenAPI 응답으로 확인했다. 노드 상태·확신도는 편집 표지이며, 조문의 법적 해석·사건별 적용은 별도 검토 대상이다.",
+    "notes": [
+      "조례 소관: 전북특별자치도교육청 민주시민교육과",
+      "자치법규는 ordinance 소스, 상위 국가법령은 statute 소스로 연계"
+    ],
+    "sources": [
+      {
+        "law": "전북특별자치도교육청 학교폭력예방 및 대책에 관한 조례",
+        "kind": "조례",
+        "sourceType": "ordinance",
+        "officialName": "전북특별자치도교육청 학교폭력예방 및 대책에 관한 조례",
+        "ordinanceId": "1959469",
+        "mst": "1959469",
+        "promulgatedOn": "2024-08-09",
+        "effectiveOn": "2024-08-09",
+        "officialUrl": "https://law.go.kr/자치법규/전북특별자치도교육청학교폭력예방및대책에관한조례"
+      },
+      {
+        "law": "학교폭력예방 및 대책에 관한 법률",
+        "kind": "법률",
+        "sourceType": "statute",
+        "officialName": "학교폭력예방 및 대책에 관한 법률",
+        "lawId": "009620",
+        "mst": "286361",
+        "promulgatedOn": "2026-06-02",
+        "effectiveOn": "2026-06-02",
+        "officialUrl": "https://law.go.kr/법령/학교폭력예방및대책에관한법률"
+      }
+    ],
+    "unresolved": [],
+    "articleVerification": {
+      "checkedAt": "2026-07-24",
+      "method": "OpenAPI(target=ordin/law) 응답의 조문 목록과 인용 조문 번호를 대조.",
+      "citationEntries": 10,
+      "explicitCitationEntries": 10,
+      "articleReferences": 11,
+      "verifiedReferences": 11,
+      "missingReferences": 0,
+      "uncheckableReferences": 0
+    }
+  }
+}

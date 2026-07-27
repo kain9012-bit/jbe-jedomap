@@ -1,11 +1,12 @@
 {
   "sourceAsOfDate": "2026-07-24",
-  "total": 19,
-  "institutions": 6,
+  "total": 37,
+  "institutions": 12,
   "byDomain": {
-    "실무 관행": 6,
-    "운영 사실": 11,
-    "처리기간": 2
+    "실무 관행": 14,
+    "운영 사실": 18,
+    "정보시스템": 2,
+    "처리기간": 3
   },
   "entries": [
     {
@@ -215,6 +216,204 @@
       "item": "성과점검 지표와 사후관리 절차",
       "domain": "운영 사실",
       "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "school-violence-prevention-FV01",
+      "priority": 7,
+      "slug": "school-violence-prevention",
+      "institutionName": "학교폭력 예방·대책",
+      "category": "학생지원·안전",
+      "item": "사안처리 실제 절차·기한(법령 위임)",
+      "domain": "처리기간",
+      "suggestedEvidence": "처리대장·통계 또는 담당자 인터뷰",
+      "status": "open"
+    },
+    {
+      "id": "school-violence-prevention-FV02",
+      "priority": 7,
+      "slug": "school-violence-prevention",
+      "institutionName": "학교폭력 예방·대책",
+      "category": "학생지원·안전",
+      "item": "상담실·사이버상담실 운영 실무",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "school-violence-prevention-FV03",
+      "priority": 7,
+      "slug": "school-violence-prevention",
+      "institutionName": "학교폭력 예방·대책",
+      "category": "학생지원·안전",
+      "item": "예방지원센터 통합지원 운영 현황",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "teacher-activity-protection-FV01",
+      "priority": 8,
+      "slug": "teacher-activity-protection",
+      "institutionName": "교권·교육활동 보호",
+      "category": "학생지원·안전",
+      "item": "침해 발생 시 실제 분리·보호 절차",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "teacher-activity-protection-FV02",
+      "priority": 8,
+      "slug": "teacher-activity-protection",
+      "institutionName": "교권·교육활동 보호",
+      "category": "학생지원·안전",
+      "item": "교육활동보호센터 운영·이용 현황",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "teacher-activity-protection-FV03",
+      "priority": 8,
+      "slug": "teacher-activity-protection",
+      "institutionName": "교권·교육활동 보호",
+      "category": "학생지원·안전",
+      "item": "위원회 심의·조정 사례",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "student-human-rights-FV01",
+      "priority": 9,
+      "slug": "student-human-rights",
+      "institutionName": "학생인권",
+      "category": "학생지원·안전",
+      "item": "학교규정 제·개정 학생참여 운영",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "student-human-rights-FV02",
+      "priority": 9,
+      "slug": "student-human-rights",
+      "institutionName": "학생인권",
+      "category": "학생지원·안전",
+      "item": "인권담당관 상담·조사 처리 실무",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "student-human-rights-FV03",
+      "priority": 9,
+      "slug": "student-human-rights",
+      "institutionName": "학생인권",
+      "category": "학생지원·안전",
+      "item": "학교별 인권실현 조사 방식",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "emotional-behavioral-crisis-student-FV01",
+      "priority": 10,
+      "slug": "emotional-behavioral-crisis-student",
+      "institutionName": "정서행동위기학생 지원",
+      "category": "학생지원·안전",
+      "item": "진단검사 동의·개인정보 절차",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "emotional-behavioral-crisis-student-FV02",
+      "priority": 10,
+      "slug": "emotional-behavioral-crisis-student",
+      "institutionName": "정서행동위기학생 지원",
+      "category": "학생지원·안전",
+      "item": "위기학생 선정 기준·중복지원 조정",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "emotional-behavioral-crisis-student-FV03",
+      "priority": 10,
+      "slug": "emotional-behavioral-crisis-student",
+      "institutionName": "정서행동위기학생 지원",
+      "category": "학생지원·안전",
+      "item": "상담·의료 연계 실무",
+      "domain": "정보시스템",
+      "suggestedEvidence": "공식 시스템 매뉴얼 또는 운영기관 확인",
+      "status": "open"
+    },
+    {
+      "id": "student-safety-management-FV01",
+      "priority": 11,
+      "slug": "student-safety-management",
+      "institutionName": "학생안전 관리 지원",
+      "category": "학생지원·안전",
+      "item": "현장체험학습 보조인력·현장답사 실무",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "student-safety-management-FV02",
+      "priority": 11,
+      "slug": "student-safety-management",
+      "institutionName": "학생안전 관리 지원",
+      "category": "학생지원·안전",
+      "item": "학교안전사고 대응 절차",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "student-safety-management-FV03",
+      "priority": 11,
+      "slug": "student-safety-management",
+      "institutionName": "학생안전 관리 지원",
+      "category": "학생지원·안전",
+      "item": "특별위원회 구성·개최 현황",
+      "domain": "운영 사실",
+      "suggestedEvidence": "소관기관 공식 문서 또는 담당자 확인",
+      "status": "open"
+    },
+    {
+      "id": "suicide-prevention-life-respect-FV01",
+      "priority": 12,
+      "slug": "suicide-prevention-life-respect",
+      "institutionName": "자살예방·생명존중",
+      "category": "학생지원·안전",
+      "item": "고위험 학생 발견·개입 실무",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "suicide-prevention-life-respect-FV02",
+      "priority": 12,
+      "slug": "suicide-prevention-life-respect",
+      "institutionName": "자살예방·생명존중",
+      "category": "학생지원·안전",
+      "item": "사후지원 프로그램 운영",
+      "domain": "실무 관행",
+      "suggestedEvidence": "복수 실무자 인터뷰와 공개 업무편람",
+      "status": "open"
+    },
+    {
+      "id": "suicide-prevention-life-respect-FV03",
+      "priority": 12,
+      "slug": "suicide-prevention-life-respect",
+      "institutionName": "자살예방·생명존중",
+      "category": "학생지원·안전",
+      "item": "관계기관 치료 연계 절차",
+      "domain": "정보시스템",
+      "suggestedEvidence": "공식 시스템 매뉴얼 또는 운영기관 확인",
       "status": "open"
     }
   ]

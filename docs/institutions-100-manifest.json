@@ -4,5 +4,11 @@
  { "priority": 3, "slug": "special-education-promotion", "name": "특수교육 진흥·지원", "type": "계획·지원형", "category": "특수·유아교육" },
  { "priority": 4, "slug": "integrated-education-finance-fund", "name": "통합교육재정안정화기금", "type": "기금·재정형", "category": "재정·예산" },
  { "priority": 5, "slug": "private-academy-establishment", "name": "학원 설립·운영·지도점검", "type": "인허가·지도점검형", "category": "평생·직업·학원" },
- { "priority": 6, "slug": "alternative-school-support", "name": "대안교육특성화학교 지원", "type": "계획·지원형", "category": "교육과정·대안교육" }
+ { "priority": 6, "slug": "alternative-school-support", "name": "대안교육특성화학교 지원", "type": "계획·지원형", "category": "교육과정·대안교육" },
+ { "priority": 7, "slug": "school-violence-prevention", "name": "학교폭력 예방·대책", "type": "예방·대응형", "category": "학생지원·안전" },
+ { "priority": 8, "slug": "teacher-activity-protection", "name": "교권·교육활동 보호", "type": "보호·구제형", "category": "학생지원·안전" },
+ { "priority": 9, "slug": "student-human-rights", "name": "학생인권", "type": "권리보장형", "category": "학생지원·안전" },
+ { "priority": 10, "slug": "emotional-behavioral-crisis-student", "name": "정서행동위기학생 지원", "type": "발견·지원형", "category": "학생지원·안전" },
+ { "priority": 11, "slug": "student-safety-management", "name": "학생안전 관리 지원", "type": "안전관리형", "category": "학생지원·안전" },
+ { "priority": 12, "slug": "suicide-prevention-life-respect", "name": "자살예방·생명존중", "type": "예방·지원형", "category": "학생지원·안전" }
 ]

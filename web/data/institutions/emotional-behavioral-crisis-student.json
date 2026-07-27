@@ -1,0 +1,362 @@
+{
+  "slug": "emotional-behavioral-crisis-student",
+  "name": "정서행동위기학생 지원",
+  "type": "발견·지원형",
+  "priority": 10,
+  "category": "학생지원·안전",
+  "oneLiner": "심리·정서·행동 위기로 학교생활에 어려움을 겪는 학생을 조기 발견·진단하고 선정해 맞춤 지원하는 제도",
+  "whyFirst": "학생맞춤통합지원·학교폭력과 연결되는 위기학생 지원의 핵심으로, 발견-진단-선정-지원 절차가 조례에 뚜렷하다.",
+  "asOfDate": "2026-07-24",
+  "status": "full",
+  "canvas": {
+    "purpose": "심리·정서·행동의 위험요인으로 교육활동 참여에 어려움을 겪는 학생에게 체계적 지원을 제공해 원활한 학교생활 환경을 조성한다.",
+    "stakeholders": "정서행동위기학생과 보호자, 학교의 장·담임교사, 전북특별자치도교육감(민주시민교육과), 전문 상담·의료기관",
+    "legalBasis": [
+      {
+        "law": "초·중등교육법",
+        "kind": "법률",
+        "articles": "제2조"
+      },
+      {
+        "law": "전북특별자치도교육청 정서행동위기학생 지원에 관한 조례",
+        "kind": "조례",
+        "articles": "제1조~제9조"
+      }
+    ],
+    "authorities": [
+      {
+        "name": "전북특별자치도교육감(민주시민교육과)",
+        "role": "지원계획·실태조사, 협력체계 구축, 진단검사 지원"
+      },
+      {
+        "name": "학교의 장·담임교사",
+        "role": "조기 발견·진단검사 연계, 위기학생 선정·지원"
+      },
+      {
+        "name": "상담·의료기관",
+        "role": "진단·상담·치료 연계 지원"
+      }
+    ],
+    "procedure": [
+      "교육감이 매년 정서행동위기학생 지원계획을 수립·시행한다 (조례 제4조)",
+      "교육감이 매년 실태조사를 실시하고 전문기관에 위탁할 수 있다 (조례 제5조)",
+      "학교가 상담·의료기관과 연계해 발견·진단검사를 실시하고 보호자에게 통지한다 (조례 제6조)",
+      "학교가 진단·담임요청·보호자상담 결과로 위기학생을 선정한다(중복지원 제외) (조례 제7조)",
+      "선정 학생에게 학교생활·학습 맞춤 지원을 제공한다 (조례 제7조)",
+      "연구·상담·의료기관과 협력체계를 구축하고 업무협약을 체결한다 (조례 제8조)"
+    ],
+    "moneyFlow": "진단검사·상담·전문기관 위탁 및 실태조사에 예산을 지원한다.",
+    "docsFlow": "지원계획(매년) → 실태조사 → 발견·진단검사 결과(보호자 통지) → 위기학생 선정 → 맞춤 지원 → 협력체계 업무협약.",
+    "bottlenecks": [
+      "진단검사 동의·개인정보 처리 (현장 검증 필요)",
+      "중복지원 방지와 대상 선정 기준",
+      "상담·의료 자원 연계 대기"
+    ],
+    "reformPoints": [
+      "학생맞춤통합지원과 사례 연계",
+      "진단-지원 정보시스템 연동",
+      "전문기관 연계 상시화"
+    ]
+  },
+  "related": [
+    "학생맞춤통합지원",
+    "자살예방·생명존중",
+    "학교폭력 예방·대책"
+  ],
+  "fieldVerification": [
+    "진단검사 동의·개인정보 절차",
+    "위기학생 선정 기준·중복지원 조정",
+    "상담·의료 연계 실무"
+  ],
+  "process": {
+    "lanes": [
+      "정서행동위기학생·보호자",
+      "학교(학교장·담임)",
+      "교육청(민주시민교육과)",
+      "상담·의료기관"
+    ],
+    "stages": [
+      "G0 계획",
+      "G1 발견·진단",
+      "G2 선정·지원",
+      "G3 협력·환류"
+    ],
+    "nodes": [
+      {
+        "id": "P01",
+        "name": "지원계획 수립(매년)",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G0 계획",
+        "type": "task",
+        "status": "done",
+        "actor": "교육감",
+        "action": "정서행동위기학생 지원계획 매년 수립·시행",
+        "output_documents": [
+          "지원계획"
+        ],
+        "deadline": "매년",
+        "blocker": null,
+        "confidence": 0.9,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 정서행동위기학생 지원에 관한 조례",
+            "article": "제4조"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "name": "실태조사(매년)",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G0 계획",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "전학년 실태조사, 전문기관 위탁 가능",
+        "output_documents": [
+          "실태조사 결과"
+        ],
+        "deadline": "매년",
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 정서행동위기학생 지원에 관한 조례",
+            "article": "제5조"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "name": "발견·진단검사·보호자 통지",
+        "lane": "학교(학교장·담임)",
+        "stage": "G1 발견·진단",
+        "type": "task",
+        "status": "current",
+        "actor": "학교의 장·담임",
+        "action": "상담·의료기관 연계 발견·진단검사, 보호자 통지",
+        "output_documents": [
+          "진단검사 결과"
+        ],
+        "deadline": null,
+        "blocker": "동의·개인정보 처리",
+        "confidence": 0.6,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 정서행동위기학생 지원에 관한 조례",
+            "article": "제6조"
+          }
+        ]
+      },
+      {
+        "id": "P04",
+        "name": "위기학생 선정",
+        "lane": "학교(학교장·담임)",
+        "stage": "G2 선정·지원",
+        "type": "gateway",
+        "status": "waiting",
+        "actor": "학교의 장",
+        "action": "진단·담임요청·보호자상담 결과로 선정(중복지원 제외)",
+        "output_documents": [
+          "선정 결과"
+        ],
+        "deadline": null,
+        "blocker": "선정 기준·중복 조정",
+        "confidence": 0.6,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 정서행동위기학생 지원에 관한 조례",
+            "article": "제7조"
+          }
+        ]
+      },
+      {
+        "id": "P05",
+        "name": "맞춤 지원 제공",
+        "lane": "학교(학교장·담임)",
+        "stage": "G2 선정·지원",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교",
+        "action": "학교생활·학습 맞춤 지원",
+        "output_documents": [
+          "지원 기록"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.6,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 정서행동위기학생 지원에 관한 조례",
+            "article": "제7조"
+          }
+        ]
+      },
+      {
+        "id": "P06",
+        "name": "상담·의료기관 연계",
+        "lane": "상담·의료기관",
+        "stage": "G2 선정·지원",
+        "type": "task",
+        "status": "waiting",
+        "actor": "상담·의료기관",
+        "action": "진단·상담·치료 연계 지원",
+        "output_documents": [
+          "연계 기록"
+        ],
+        "deadline": null,
+        "blocker": "연계 대기",
+        "confidence": 0.55,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 정서행동위기학생 지원에 관한 조례",
+            "article": "제6조"
+          }
+        ]
+      },
+      {
+        "id": "P07",
+        "name": "협력체계 구축·업무협약",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G3 협력·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "연구·상담·의료기관과 협력체계 구축, 업무협약",
+        "output_documents": [
+          "업무협약"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.75,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도교육청 정서행동위기학생 지원에 관한 조례",
+            "article": "제8조"
+          }
+        ]
+      },
+      {
+        "id": "P08",
+        "name": "환류·차기계획 반영",
+        "lane": "교육청(민주시민교육과)",
+        "stage": "G3 협력·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "지원 결과를 차기 지원계획에 반영",
+        "output_documents": [
+          "차기 계획 반영안"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.75
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "P01",
+        "target": "P02",
+        "type": "sequence"
+      },
+      {
+        "id": "E02",
+        "source": "P02",
+        "target": "P03",
+        "type": "sequence"
+      },
+      {
+        "id": "E03",
+        "source": "P03",
+        "target": "P04",
+        "type": "sequence"
+      },
+      {
+        "id": "E04",
+        "source": "P04",
+        "target": "P05",
+        "type": "sequence"
+      },
+      {
+        "id": "E05",
+        "source": "P03",
+        "target": "P06",
+        "type": "message"
+      },
+      {
+        "id": "E06",
+        "source": "P06",
+        "target": "P05",
+        "type": "message"
+      },
+      {
+        "id": "E07",
+        "source": "P05",
+        "target": "P07",
+        "type": "sequence"
+      },
+      {
+        "id": "E08",
+        "source": "P07",
+        "target": "P08",
+        "type": "sequence"
+      },
+      {
+        "id": "E09",
+        "source": "P08",
+        "target": "P01",
+        "type": "loop",
+        "label": "차기계획 환류"
+      }
+    ],
+    "warnings": [
+      "발견·진단·선정(P03·P04)은 동의·개인정보와 현장 판단에 좌우되어 confidence를 낮춤(현장 검증 필요)."
+    ]
+  },
+  "verification": {
+    "status": "article-verified",
+    "verifiedAt": "2026-07-24",
+    "method": "국가법령정보센터 OpenAPI로 자치법규 원문(전북특별자치도교육청 정서행동위기학생 지원에 관한 조례)과 상위 국가법령을 대조. 캔버스·절차 노드 명시 조문 존재를 모두 확인.",
+    "scope": "전북 조례 조문과 인용 국가법령 조문의 존재를 OpenAPI 응답으로 확인했다. 노드 상태·확신도는 편집 표지이며, 조문의 법적 해석·사건별 적용은 별도 검토 대상이다.",
+    "notes": [
+      "조례 소관: 전북특별자치도교육청 민주시민교육과",
+      "자치법규는 ordinance 소스, 상위 국가법령은 statute 소스로 연계"
+    ],
+    "sources": [
+      {
+        "law": "전북특별자치도교육청 정서행동위기학생 지원에 관한 조례",
+        "kind": "조례",
+        "sourceType": "ordinance",
+        "officialName": "전북특별자치도교육청 정서행동위기학생 지원에 관한 조례",
+        "ordinanceId": "2017991",
+        "mst": "2017991",
+        "promulgatedOn": "2025-03-14",
+        "effectiveOn": "2025-03-14",
+        "officialUrl": "https://law.go.kr/자치법규/전북특별자치도교육청정서행동위기학생지원에관한조례"
+      },
+      {
+        "law": "초·중등교육법",
+        "kind": "법률",
+        "sourceType": "statute",
+        "officialName": "초·중등교육법",
+        "lawId": "000900",
+        "mst": "279605",
+        "promulgatedOn": "2025-11-11",
+        "effectiveOn": "2026-03-01",
+        "officialUrl": "https://law.go.kr/법령/초·중등교육법"
+      }
+    ],
+    "unresolved": [],
+    "articleVerification": {
+      "checkedAt": "2026-07-24",
+      "method": "OpenAPI(target=ordin/law) 응답의 조문 목록과 인용 조문 번호를 대조.",
+      "citationEntries": 9,
+      "explicitCitationEntries": 9,
+      "articleReferences": 10,
+      "verifiedReferences": 10,
+      "missingReferences": 0,
+      "uncheckableReferences": 0
+    }
+  }
+}

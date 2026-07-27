@@ -1,0 +1,399 @@
+{
+  "slug": "student-human-rights",
+  "name": "학생인권",
+  "type": "권리보장형",
+  "priority": 9,
+  "category": "학생지원·안전",
+  "oneLiner": "학습·차별금지·사생활·자치·복지 등 학생의 인권을 학교교육과정과 학교생활에서 실현하고, 침해 시 상담·조사로 구제하는 제도",
+  "whyFirst": "교육기본법·초중등교육법에 근거한 학생 권리 보장의 상위 틀로, 다른 학생지원 제도의 공통 기반이다.",
+  "asOfDate": "2026-07-24",
+  "status": "full",
+  "canvas": {
+    "purpose": "학습권·차별받지 않을 권리·사생활·자치·복지 등 학생의 인권이 학교교육과정과 학교생활에서 실현되도록 보장한다.",
+    "stakeholders": "학생과 보호자, 학교의 장·교직원, 전북특별자치도교육감(전북교육인권센터·인권담당관)",
+    "legalBasis": [
+      {
+        "law": "교육기본법",
+        "kind": "법률"
+      },
+      {
+        "law": "초·중등교육법",
+        "kind": "법률",
+        "articles": "제2조"
+      },
+      {
+        "law": "유아교육법",
+        "kind": "법률",
+        "articles": "제2조"
+      },
+      {
+        "law": "전북특별자치도 학생인권 조례",
+        "kind": "조례",
+        "articles": "제1조~제51조"
+      }
+    ],
+    "authorities": [
+      {
+        "name": "전북특별자치도교육감(전북교육인권센터)",
+        "role": "인권 실현 정책 수립, 학교별 실현 조사·지침, 인권교육 자료·홍보"
+      },
+      {
+        "name": "학교의 장",
+        "role": "학생 권리 보장, 학교규정 제·개정 학생 참여, 인권교육 실시"
+      },
+      {
+        "name": "인권담당관",
+        "role": "인권침해 상담·조사 청구 처리"
+      }
+    ],
+    "procedure": [
+      "교육감이 정책 수립 시 학생 인권을 실현하도록 노력한다 (조례 제4조)",
+      "학교가 학생 참여로 학교생활규정을 제·개정한다 (조례 제19조·제47조)",
+      "학교가 학생 인권교육을 학기당 2시간 이상 실시한다 (조례 제30조)",
+      "학습·차별금지·사생활·자치·복지 등 학생 권리를 보장한다 (조례 제5조~제24조)",
+      "인권침해 시 인권담당관에게 상담·조사를 청구한다 (조례 제27조)",
+      "징계 등 절차에서 적법절차와 학생 권리를 보장한다 (조례 제26조)",
+      "교육감이 학교별 인권실현 상황을 조사하고 지침을 제시한다 (조례 제36조)",
+      "학생인권의 날·홍보로 인권을 진흥하고 결과를 환류한다 (조례 제28조)"
+    ],
+    "moneyFlow": "별도 급여성 지출은 없다. 인권교육 자료 제작·홍보, 학생 문화·자치활동 지원 등에 예산을 사용한다.",
+    "docsFlow": "인권 실현 정책 → 학교생활규정(학생 참여) → 인권교육 기록(학기당 2시간) → 인권침해 상담·조사 청구 → 학교별 인권실현 조사·지침.",
+    "bottlenecks": [
+      "학생 권리와 교원 교육활동권의 조화 (현장 검증 필요)",
+      "학교규정 제·개정 학생 참여의 실질성",
+      "인권침해 구제 절차의 접근성"
+    ],
+    "reformPoints": [
+      "학생 권리-교권 조화 가이드",
+      "학교규정 학생참여 표준 절차",
+      "인권침해 상담·구제 채널 정비"
+    ]
+  },
+  "related": [
+    "교권·교육활동 보호",
+    "학교폭력 예방·대책",
+    "학생맞춤통합지원"
+  ],
+  "fieldVerification": [
+    "학교규정 제·개정 학생참여 운영",
+    "인권담당관 상담·조사 처리 실무",
+    "학교별 인권실현 조사 방식"
+  ],
+  "process": {
+    "lanes": [
+      "학생·보호자",
+      "학교(학교장·교직원)",
+      "교육청(전북교육인권센터)"
+    ],
+    "stages": [
+      "G0 보장기반",
+      "G1 권리실현",
+      "G2 구제",
+      "G3 진흥·환류"
+    ],
+    "nodes": [
+      {
+        "id": "P01",
+        "name": "학생인권 실현 정책 수립",
+        "lane": "교육청(전북교육인권센터)",
+        "stage": "G0 보장기반",
+        "type": "task",
+        "status": "done",
+        "actor": "교육감",
+        "action": "교육정책 수립 시 학생 인권 실현",
+        "output_documents": [
+          "인권 실현 정책"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학생인권 조례",
+            "article": "제4조"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "name": "학교생활규정 제·개정(학생 참여)",
+        "lane": "학교(학교장·교직원)",
+        "stage": "G0 보장기반",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교의 장·규정개정심의위원회",
+        "action": "학생 참여로 학교규정 제·개정",
+        "output_documents": [
+          "학교생활규정"
+        ],
+        "deadline": null,
+        "blocker": "학생참여 실질성",
+        "confidence": 0.7,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학생인권 조례",
+            "article": "제19조"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "name": "학생 인권교육(학기당 2시간 이상)",
+        "lane": "학교(학교장·교직원)",
+        "stage": "G1 권리실현",
+        "type": "task",
+        "status": "current",
+        "actor": "학교의 장",
+        "action": "학생 인권교육 실시(노동권 포함)",
+        "output_documents": [
+          "인권교육 기록"
+        ],
+        "deadline": "학기당 2시간 이상",
+        "blocker": null,
+        "confidence": 0.85,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학생인권 조례",
+            "article": "제30조"
+          }
+        ]
+      },
+      {
+        "id": "P04",
+        "name": "학생 권리 보장",
+        "lane": "학교(학교장·교직원)",
+        "stage": "G1 권리실현",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교의 장·교직원",
+        "action": "학습·차별금지·사생활·자치·복지 등 권리 보장",
+        "output_documents": [],
+        "deadline": null,
+        "blocker": "교권과의 조화",
+        "confidence": 0.6,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학생인권 조례",
+            "article": "제5조"
+          }
+        ]
+      },
+      {
+        "id": "P05",
+        "name": "인권침해 상담·조사 청구",
+        "lane": "학생·보호자",
+        "stage": "G2 구제",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학생·보호자",
+        "action": "인권담당관에게 상담·조사 청구",
+        "output_documents": [
+          "상담·조사 청구"
+        ],
+        "deadline": null,
+        "blocker": "접근성",
+        "confidence": 0.65,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학생인권 조례",
+            "article": "제27조"
+          }
+        ]
+      },
+      {
+        "id": "P06",
+        "name": "징계 등 절차에서 권리 보장",
+        "lane": "학교(학교장·교직원)",
+        "stage": "G2 구제",
+        "type": "task",
+        "status": "waiting",
+        "actor": "학교의 장",
+        "action": "사전통지·소명·재심 등 적법절차 보장",
+        "output_documents": [
+          "징계 절차 기록"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.65,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학생인권 조례",
+            "article": "제26조"
+          }
+        ]
+      },
+      {
+        "id": "P07",
+        "name": "학교별 인권실현 조사·지침",
+        "lane": "교육청(전북교육인권센터)",
+        "stage": "G3 진흥·환류",
+        "type": "task",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "학교별 인권실현 상황 조사, 개선 지침 제시",
+        "output_documents": [
+          "실현 조사",
+          "지침"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.75,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학생인권 조례",
+            "article": "제36조"
+          }
+        ]
+      },
+      {
+        "id": "P08",
+        "name": "학생인권의 날·홍보·환류",
+        "lane": "교육청(전북교육인권센터)",
+        "stage": "G3 진흥·환류",
+        "type": "notice",
+        "status": "waiting",
+        "actor": "교육감",
+        "action": "학생인권의 날 지정·홍보, 결과 환류",
+        "output_documents": [
+          "홍보 자료"
+        ],
+        "deadline": null,
+        "blocker": null,
+        "confidence": 0.8,
+        "legal_basis": [
+          {
+            "law": "전북특별자치도 학생인권 조례",
+            "article": "제28조"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "P01",
+        "target": "P02",
+        "type": "sequence"
+      },
+      {
+        "id": "E02",
+        "source": "P02",
+        "target": "P03",
+        "type": "sequence"
+      },
+      {
+        "id": "E03",
+        "source": "P03",
+        "target": "P04",
+        "type": "sequence"
+      },
+      {
+        "id": "E04",
+        "source": "P04",
+        "target": "P05",
+        "type": "sequence"
+      },
+      {
+        "id": "E05",
+        "source": "P05",
+        "target": "P06",
+        "type": "message"
+      },
+      {
+        "id": "E06",
+        "source": "P04",
+        "target": "P07",
+        "type": "sequence"
+      },
+      {
+        "id": "E07",
+        "source": "P06",
+        "target": "P07",
+        "type": "sequence"
+      },
+      {
+        "id": "E08",
+        "source": "P07",
+        "target": "P08",
+        "type": "sequence"
+      },
+      {
+        "id": "E09",
+        "source": "P08",
+        "target": "P01",
+        "type": "loop",
+        "label": "정책 환류"
+      }
+    ],
+    "warnings": [
+      "학생 권리 보장(P04)의 실제 운영은 학교별 여건·교권과의 조화에 좌우되어 confidence를 낮춤(현장 검증 필요)."
+    ]
+  },
+  "verification": {
+    "status": "article-verified",
+    "verifiedAt": "2026-07-24",
+    "method": "국가법령정보센터 OpenAPI로 자치법규 원문(전북특별자치도 학생인권 조례)과 상위 국가법령을 대조. 캔버스·절차 노드 명시 조문 존재를 모두 확인.",
+    "scope": "전북 조례 조문과 인용 국가법령 조문의 존재를 OpenAPI 응답으로 확인했다. 노드 상태·확신도는 편집 표지이며, 조문의 법적 해석·사건별 적용은 별도 검토 대상이다.",
+    "notes": [
+      "조례는 「대한민국헌법」·국제연합 「아동의 권리에 관한 협약」도 이념적 근거로 명시(조례 제1조). 여기서는 운영 근거인 교육기본법·초중등교육법·유아교육법을 statute 소스로 연계.",
+      "자치법규는 ordinance 소스, 상위 국가법령은 statute 소스로 연계"
+    ],
+    "sources": [
+      {
+        "law": "전북특별자치도 학생인권 조례",
+        "kind": "조례",
+        "sourceType": "ordinance",
+        "officialName": "전북특별자치도 학생인권 조례",
+        "ordinanceId": "1906965",
+        "mst": "1906965",
+        "promulgatedOn": "2024-02-16",
+        "effectiveOn": "2024-02-16",
+        "officialUrl": "https://law.go.kr/자치법규/전북특별자치도학생인권조례"
+      },
+      {
+        "law": "교육기본법",
+        "kind": "법률",
+        "sourceType": "statute",
+        "officialName": "교육기본법",
+        "lawId": "000901",
+        "mst": "285783",
+        "promulgatedOn": "2026-05-06",
+        "effectiveOn": "2026-05-06",
+        "officialUrl": "https://law.go.kr/법령/교육기본법"
+      },
+      {
+        "law": "초·중등교육법",
+        "kind": "법률",
+        "sourceType": "statute",
+        "officialName": "초·중등교육법",
+        "lawId": "000900",
+        "mst": "279605",
+        "promulgatedOn": "2025-11-11",
+        "effectiveOn": "2026-03-01",
+        "officialUrl": "https://law.go.kr/법령/초·중등교육법"
+      },
+      {
+        "law": "유아교육법",
+        "kind": "법률",
+        "sourceType": "statute",
+        "officialName": "유아교육법",
+        "lawId": "009621",
+        "mst": "286061",
+        "promulgatedOn": "2026-05-19",
+        "effectiveOn": "2026-05-19",
+        "officialUrl": "https://law.go.kr/법령/유아교육법"
+      }
+    ],
+    "unresolved": [],
+    "articleVerification": {
+      "checkedAt": "2026-07-24",
+      "method": "OpenAPI(target=ordin/law) 응답의 조문 목록과 인용 조문 번호를 대조.",
+      "citationEntries": 11,
+      "explicitCitationEntries": 11,
+      "articleReferences": 12,
+      "verifiedReferences": 12,
+      "missingReferences": 0,
+      "uncheckableReferences": 0
+    }
+  }
+}
